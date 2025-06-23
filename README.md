@@ -66,7 +66,7 @@ AITL/
 
 ## 著者情報
 
-- 作成者：Shinichi Samizo  専門分野　半導体デバイス技術
+- 作成者：Shinichi Samizo   (専門　半導体デバイス技術)
 - GitHub：[@samizo-aitl](https://github.com/samizo-aitl)  
 - Email：shin3t72@gmail.com  
 
