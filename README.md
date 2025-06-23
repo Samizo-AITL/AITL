@@ -48,20 +48,21 @@ AITL/
 └── LICENSE                        # ライセンス（必要に応じて）
 ---
 
-# ✅ 提示ファイル・フォルダ一覧（Markdownで作成可能）
+ ## 📄 ドキュメント一覧 / Document Index
 
-| パス | 内容 |
-|------|------|
-| `/docs/AITL_Model_v1.0.md` | AITL全体構成と論理階層の説明 |
-| `/docs/AITL_Policy_Proposal_v1.0.md` | OpenAI／NEDO／経産省向け政策提言草案 |
-| `/docs/AITL_Robotics_Structure.md` | AITL-Rの構成要素とSoC設計案（SkyHyEV含む） |
-| `/aitl-core/inference_logic.md` | 論理推論層の定式化と応用設計 |
-| `/aitl-core/control_design.md` | 制御設計（PID/予測/最適化）の統合論理 |
-| `/aitl-core/physics_integration.md` | PIML構成・物理過程のAI統合方法 |
-| `/aitl-r/robotics_soc_config.md` | SoCチップ構成（3nm〜0.18µm）と割付け |
-| `/aitl-r/self_repair_control.md` | 自己修復ロジック（検知／回復／適応） |
-| `/aitl-r/skyhyev_poc.md` | SkyHyEVモデルのPoCシナリオと構成案 |
+| ファイル | 内容 |
+|---------|------|
+| `docs/AITL_Model_v1.0.md` | AITL全体構成と理論階層の解説 |
+| `docs/AITL_Policy_Proposal_v1.0.md` | 経済産業省・NEDO・OpenAI向け政策提言 |
+| `docs/AITL_Robotics_Structure.md` | AITL-R構成・SoC設計・SkyHyEVモデル |
+| `aitl-core/inference_logic.md` | 論理推論層の定式化と応用設計 |
+| `aitl-core/control_design.md` | 制御設計（PID/MPC/RL）の統合理論 |
+| `aitl-core/physics_integration.md` | PIML構成・物理知識の内在化設計 |
+| `aitl-r/robotics_soc_config.md` | SoC構成（3nm〜0.18µm）の分担設計 |
+| `aitl-r/self_repair_control.md` | 自己修復ロジック（異常検知・再構成） |
+| `aitl-r/skyhyev_poc.md` | SkyHyEV PoC例（災害対応AI機構） |
 
+> ※ `docs/AITL_Proposal_v1.0.pdf` はPDF版提言書として別途公開予定です。
 
 ---
 
