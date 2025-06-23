@@ -32,7 +32,7 @@ AITL（All-in-Theory Logic）は、人工知能技術の高度な理論統合モ
 ---
 
 ## フォルダ構成（v1.0）
-‘’‘
+```
 AITL/
 ├── README.md                      # ← このファイル
 ├── docs/                          # モデル構成・提言書
@@ -48,7 +48,7 @@ AITL/
 │   ├── self_repair_control.md     # 自己修復ロジック設計
 │   └── skyhyev_poc.md             # PoC設計例（SkyHyEV）
 └── LICENSE                       # ライセンス（必要に応じて）
-’‘’
+```
 
 ## 参考資料
 
