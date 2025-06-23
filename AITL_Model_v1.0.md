@@ -65,24 +65,24 @@ AITLは、AIによる論理推論、制御設計、物理世界との適応を�
 
 ## 🧩 AITLの設計特徴
 
-| 特徴 | 内容 |
-|------|------|
-| 理論一体化 | 論理・制御・物理・修復を統合した構成 |
-| 非LLM依存 | GPT等に頼らず、自律型の汎用AI設計 |
-| 分割可能構成 | 各層は独立にPoC／モジュール実装可能 |
-| SoC展開適性 | ハードウェア設計にも展開可能（AITL-R） |
-| 教育適用性 | 高専〜大学教育用AI教材としても使用可 |
+| 特徴         | 内容                                                |
+|--------------|-----------------------------------------------------|
+| 理論一体化   | 論理・制御・物理・修復を統合した構成              |
+| 非LLM依存    | GPT等に頼らず、自律型の汎用AI設計                 |
+| 分割可能構成 | 各層は独立にPoC／モジュール実装可能               |
+| SoC展開適性  | ハードウェア設計にも展開可能（AITL-R）            |
+| 教育適用性   | 高専〜大学教育用AI教材としても使用可              |
 
 ---
 
 ## 📐 モジュール構成（ソフト・ハード連携）
 
-| 階層 | ソフト設計 | ハード実装 | 備考 |
-|------|------------|-------------|------|
-| Self-Repair | 異常予兆／代替行動AI | 診断チップ（0.35µm） | 冗長系接続可 |
-| Physical Model | PIMLモデル（Python） | モデルベース制御SoC | SkyHyEV内蔵候補 |
-| Control | 最適制御器・強化学習制御 | 制御DSP／RISC-V | 0.18µm CMOSなど |
-| Inference | 仮説生成AI、知識DB | LLMまたは軽量NN | Edge/Offline可 |
+| 階層           | ソフト設計                        | ハード実装               | 備考             |
+|----------------|-----------------------------------|--------------------------|------------------|
+| Self-Repair    | 異常予兆／代替行動AI             | 診断チップ（0.35µm）     | 冗長系接続可     |
+| Physical Model | PIMLモデル（Python）              | モデルベース制御SoC      | SkyHyEV内蔵候補  |
+| Control        | 最適制御器・強化学習制御          | 制御DSP／RISC-V          | 0.18µm CMOSなど |
+| Inference      | 仮説生成AI、知識DB               | LLMまたは軽量NN          | Edge/Offline可   |
 
 ---
 
@@ -97,8 +97,8 @@ AITLは、AIによる論理推論、制御設計、物理世界との適応を�
 ## 🔗 関連資料
 
 - 📄 [README（AITL理論概要）](../README.md)  
-- 🏛 [`AITL_Policy_Proposal_v1.0.md`](AITL_Policy_Proposal_v1.0.md)  
-- 🤖 [`AITL_Robotics_Structure.md`](AITL_Robotics_Structure.md)
+- 🏛 [AITL_Policy_Proposal_v1.0.md](AITL_Policy_Proposal_v1.0.md)  
+- 🤖 [AITL_Robotics_Structure.md](AITL_Robotics_Structure.md)
 
 ---
 
@@ -107,5 +107,3 @@ AITLは、AIによる論理推論、制御設計、物理世界との適応を�
 - 著者：**Shinichi Samizo**  
 - GitHub：[@samizo-aitl](https://github.com/samizo-aitl)  
 - Email：shin3t72@gmail.com
-
----
