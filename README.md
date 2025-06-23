@@ -49,7 +49,6 @@ AITL/
 │   └── skyhyev_poc.md             # PoC設計例（SkyHyEV）
 └── LICENSE                       # ライセンス（必要に応じて）
 ’‘’
----
 
 ## 参考資料
 
