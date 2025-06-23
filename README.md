@@ -62,32 +62,6 @@ AITL/
 | `/aitl-r/self_repair_control.md` | 自己修復ロジック（検知／回復／適応） |
 | `/aitl-r/skyhyev_poc.md` | SkyHyEVモデルのPoCシナリオと構成案 |
 
----
-
-## ✅ ここからどうする？
-
-- iPadでGitHubにログイン → `Add file > Create new file`  
-- まずは `README.md` を新規作成 → 上記Markdownをコピペして保存  
-- 続けて `/docs/` や `/aitl-core/` フォルダも同様にファイル追加
-
----
-
-### ✳️ オプションでご支援可能：
-
-- 各ファイルの中身（`AITL_Model_v1.0.md`など）を**個別に提供**
-- `README.md` を英語版でも提示
-- GitHub Pages構成への対応（Web公開形式）
-
----
-
-ご希望のファイルから順に中身を提示できます。  
-次に見たいのは：
-
-- 🔹 AITLモデル構成の詳細（`AITL_Model_v1.0.md`）  
-- 🔹 提言書（`AITL_Policy_Proposal_v1.0.md`）  
-- 🔹 ロボット向け（`AITL_Robotics_Structure.md`）
-
-どれからご覧になりますか？
 
 ---
 
