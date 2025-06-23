@@ -32,30 +32,35 @@ AITL（All-in-Theory Logic）は、人工知能技術の高度な理論統合モ
 ---
 
 ## フォルダ構成（v1.0）
-
-AITL/  
-├── README.md                      # ← このファイル  
-├── docs/                          # モデル構成・提言書  
-│   ├── AITL_Model_v1.0.md  
-│   ├── AITL_Policy_Proposal_v1.0.md  
-│   └── AITL_Robotics_Structure.md  
-├── aitl-core/                     # 理論構成（中核モデル）  
-│   ├── inference_logic.md  
-│   ├── control_design.md  
-│   └── physics_integration.md  
-├── aitl-r/                        # ロボット向け実装（SoC設計など）  
-│   ├── robotics_soc_config.md  
-│   ├── self_repair_control.md  
-│   └── skyhyev_poc.md  
-└── LICENSE                        # ライセンス（必要に応じて）  
+AITL/
+├── README.md                      # ← このファイル
+├── docs/                          # モデル構成・提言書
+│   ├── AITL_Model_v1.0.md         # AITL全体モデル構成解説
+│   ├── AITL_Policy_Proposal_v1.0.md # 政策提言書（経済産業省・NEDO・OpenAI向け）
+│   └── AITL_Robotics_Structure.md # ロボット向け構成・SoC設計
+├── aitl-core/                     # 理論構成（中核モデル）
+│   ├── inference_logic.md         # 論理推論層詳細
+│   ├── control_design.md          # 制御設計論理
+│   └── physics_integration.md     # 物理統合設計
+├── aitl-r/                        # ロボット向け実装（SoC設計等）
+│   ├── robotics_soc_config.md     # SoC構成仕様
+│   ├── self_repair_control.md     # 自己修復ロジック設計
+│   └── skyhyev_poc.md             # PoC設計例（SkyHyEV）
+└── LICENSE                       # ライセンス（必要に応じて）
 
 ---
 
 ## 参考資料
 
-- [AITL_Model_v1.0.md](docs/AITL_Model_v1.0.md)  
-- [AITL-Robotics_Structure.md](docs/AITL_Robotics_Structure.md)  
-- [Self-Repair Control Logic (self_repair_control.md)](aitl-r/self_repair_control.md)  
+- [`docs/AITL_Model_v1.0.md`](docs/AITL_Model_v1.0.md) — AITL全体構成と理論階層の解説  
+- [`docs/AITL_Policy_Proposal_v1.0.md`](docs/AITL_Policy_Proposal_v1.0.md) — 政策提言書（経済産業省・NEDO・OpenAI向け）  
+- [`docs/AITL_Robotics_Structure.md`](docs/AITL_Robotics_Structure.md) — AITL-Rのロボット向け構成案  
+- [`aitl-core/inference_logic.md`](aitl-core/inference_logic.md) — 論理推論層の定式化と応用設計  
+- [`aitl-core/control_design.md`](aitl-core/control_design.md) — 制御設計（PID/MPC/RL）の統合理論  
+- [`aitl-core/physics_integration.md`](aitl-core/physics_integration.md) — PIML構成・物理知識の内在化設計  
+- [`aitl-r/robotics_soc_config.md`](aitl-r/robotics_soc_config.md) — SoC構成（3nm〜0.18µm）の分担設計  
+- [`aitl-r/self_repair_control.md`](aitl-r/self_repair_control.md) — 自己修復ロジック（異常検知・再構成）  
+- [`aitl-r/skyhyev_poc.md`](aitl-r/skyhyev_poc.md) — SkyHyEV PoC例（災害対応AI機構）  
 
 ---
 
@@ -63,5 +68,15 @@ AITL/
 
 - 作成者：Shinichi Samizo  
 - GitHub：[@samizo-aitl](https://github.com/samizo-aitl)  
-- Email：shin3t72@gmail.com
+- Email：shin3t72@gmail.com  
 
+---
+
+## お問い合わせ
+
+ご質問やご提案、協力のご希望は下記までご連絡ください。
+
+- GitHub Discussions: [AITL Discussions](https://github.com/samizo-aitl/AITL/discussions)  
+- Email: shin3t72@gmail.com  
+
+---
