@@ -1,5 +1,12 @@
 # AITL - All-in-Theory Logic
 
+## 🌐 English Overview
+
+**AITL (All-in-Theory Logic)** is a next-generation theoretical framework for Artificial Intelligence that integrates logical inference, control systems, physics-informed modeling, and self-repair mechanisms.  
+Unlike LLM-based models, AITL functions as an independent core architecture applicable to robotics, edge AI, disaster-response systems, and autonomous control.  
+This repository contains the full model specification, robotics implementation (AITL-R), and related policy proposals (e.g., for METI, NEDO, and OpenAI).  
+For questions, collaborations, or discussions, feel free to reach out via GitHub or email (see below).
+
 ## 概要
 
 AITL（All-in-Theory Logic）は、人工知能技術の高度な理論統合モデルです。  
