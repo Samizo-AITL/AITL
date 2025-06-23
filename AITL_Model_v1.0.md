@@ -17,19 +17,19 @@ AITLは、AIによる論理推論、制御設計、物理世界との適応を�
 
 ## 🧠 AITLの4層構造（コアモデル）
 
-### 📐 AITL 4-Layer Architecture
+📐 AITL 4-Layer Architecture
 
-1. 🛠 **Self-Repair Logic（第4層）**  
-　→ 故障予兆・自己診断・適応学習
+1. 🛠 Self-Repair Logic（第4層）  
+   → 故障予兆・自己診断・適応学習
 
-2. 🌍 **Physical Model Integration（第3層）**  
-　→ 力学・熱・電気・環境反映
+2. 🌍 Physical Model Integration（第3層）  
+   → 力学・熱・電気・環境反映
 
-3. 🎯 **Control Logic（第2層）**  
-　→ 安定制御・予測・最適化
+3. 🎯 Control Logic（第2層）  
+   → 安定制御・予測・最適化
 
-4. 🔍 **Inference Logic（第1層）**  
-　→ 仮説生成・予測・因果推論
+4. 🔍 Inference Logic（第1層）  
+   → 仮説生成・予測・因果推論
 
 ---
 
