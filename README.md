@@ -1,47 +1,54 @@
 # AITL-GPT
+
+AITL一体型AIモデルと提言書の公開リポジトリ。ChatGPTと共創されたAI設計理論。  
+**AITL-GPT v1.0**
+
+---
+
+## 🧠 プロジェクト概要
+
+AITL-GPT（All-in-Theory Logic GPT）は、日本発のAI・半導体統合設計思想に基づき、  
+国家レベルでのAI実装、教育展開、自己発電AIシステムを一体化した構想です。
+
+---
+
+## 📘 提言資料
+
+- [AITL-GPT 提言スライド資料 v1.0（Markdown形式）](AITL-GPT_Proposal_v1.0.md)
+
+---
+
+## ⚙️ 主な構成
+
+- SamizoGPT / AITL for Robotics モデル
+- Eco Power Platform（自己発電AI：3プロジェクト）
+- AITLロボットとPoC設計教材（PoCDK, SystemDK）
+
+---
+
+## 🧩 提案対象と目的
+
+| 機関 | 役割 |
+|------|------|
+| 経済産業省 | 制度・政策提言 |
+| NEDO | 実証・開発支援 |
+| 教育機関 | AI・半導体・電源融合教育の展開 |
+
+---
+
+## 📂 ファイル構成案
+
+| ファイル名 | 内容 |
+|------------|------|
+| `README.md` | 本リポジトリ概要（このファイル） |
+| `AITL-GPT_Proposal_v1.0.md` | 提言資料のMarkdown全文 |
+| `/docs/` | 補足資料・図・PDF（予定） |
+
+---
+
+## ✉️ お問い合わせ
+
+- 監修者：三溝 真一（Shinichi Samizo）  
+- GitHub: [samizo-aitl](https://github.com/samizo-aitl)  
+- Email: shin3t72@gmail.com# AITL-GPT
 AITL一体型AIモデルと提言書の公開リポジトリ。ChatGPTと共創されたAI設計理論。
-# AITL-GPT v1.0
-
-**AITL-GPT** は、ChatGPTと共創された統合AI設計理論モデルです。  
-制御AI・物理AI・自己修復AIの3系統を一体設計する「AITL（All-in-Theory Logic）」構想に基づき、  
-教育用PoC設計、ロボティクス応用、OpenAI提言書までを一体化した構成になっています。
-
----
-
-## 📘 主な内容
-
-- AITL一体構成モデル（GPT v1.0）
-- Robotics向け応用設計（GPT v1.0-R）
-- 提言書（OpenAI向けPDF＋Markdown）
-- SystemDK教材・SoC設計基盤への応用
-
----
-
-## 🌍 Overview (English)
-
-**AITL-GPT** is a unified AI design framework co-developed with ChatGPT,  
-featuring three integrated AI domains: control, physical, and self-repair.  
-It is built for educational PoC systems, robotics applications, and policy proposal to OpenAI.
-
----
-
-## 📄 提言書公開予定
-
-- `AITL_Model_v1.0.md`: 構成理論書（Markdown）
-- `Proposal_to_OpenAI.md`: OpenAI提出草案
-- `AITL_Proposal_v1.0.pdf`: PDF形式（監修者署名付き）
-
----
-
-## 🤖 Robotics応用
-
-- AITL for Robotics / GPT v1.0-R
-- 多チップ構成（3nm AI SoC + 0.18µm AMS + DRAM/FeRAM）
-- Sky-HyEVモデルと連携
-
----
-
-## 📬 お問い合わせ・意見
-
-Issue欄でご自由にご提案・ご質問ください。  
-ご訪問ありがとうございます！
