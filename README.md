@@ -17,7 +17,7 @@
 
 ## 🧠 AITLの構成要素
 
-- **Inference Logic（論理推論）**
+- Inference Logic（論理推論）
   - 意思決定・予測・仮説生成の枠組み
 - **Control Logic（制御理論）**
   - 状態変化・安定化・最適行動の設計論理
@@ -111,6 +111,7 @@ AITLモデルに基づく政策提言・実装提案の詳細は以下のドキ�
 - 📘 [AITLモデル構成書 v1.0](docs/AITL_Model_v1.0.md)
 - 🏛 [AITL政策提言書 v1.0（OpenAI・NEDO・経済産業省向け）](docs/AITL_Policy_Proposal_v1.0.md)
 - 🤖 [AITL-R（ロボット向け構成案）](docs/AITL_Robotics_Structure.md)
+- 📄 [PDF版：AITL提言書 v1.0](docs/AITL_Proposal_v1.0.pdf)
 
 > ※PDF版も今後準備予定です。Markdownベースでの提言は随時アップデートされます。
 
