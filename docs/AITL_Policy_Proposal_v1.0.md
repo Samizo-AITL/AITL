@@ -71,7 +71,7 @@ GitHub: [@samizo-aitl](https://github.com/samizo-aitl)
 
 ## 7. 著者・連絡先
 
-- 作成：**Shinichi Samizo** 専門分野　半導体デバイス技術
+- 作成：**Shinichi Samizo**   専門分野　半導体デバイス技術
 - GitHub: [@samizo-aitl](https://github.com/samizo-aitl)
 - Email: shin3t72@gmail.com
 - 所属：AITL-GPTプロジェクト・独自設計モデル開発責任者
