@@ -60,6 +60,8 @@ AITL/
 │   └── skyhyev_poc.md             # PoC設計例（SkyHyEV）
 └── LICENSE                        # ライセンス（必要に応じて）
 
+```
+
 ## 参考資料
 
 - [`docs/AITL_Model_v1.0.md`](docs/AITL_Model_v1.0.md) — AITL全体構成と理論階層の解説  
