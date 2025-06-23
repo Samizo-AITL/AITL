@@ -1,5 +1,5 @@
 
-
+---
 # AITL Model v1.0  
 AITL（All-in-Theory Logic）統合理論モデル構成書
 
@@ -8,8 +8,7 @@ AITL（All-in-Theory Logic）統合理論モデル構成書
 ## 🎯 目的と背景
 
 AITLは、AIによる論理推論、制御設計、物理世界との適応を一つの統合モデルで実現するために設計されました。  
-従来のLLMや機械学習が抱えていた「物理的リアリティの欠如」「制御設計との乖離」「説明可能性の脆弱さ」に対し、  
-AITLは以下のような構造で応えます。
+従来のLLMや機械学習が抱えていた「物理的リアリティの欠如」「制御設計との乖離」「説明可能性の脆弱さ」に対し、AITLは以下のような構造で応えます。
 
 - AI + Control + Physics を統合した**次世代AIの理論基盤**
 - LLM非依存、**自律・予測・自己修復**を含む完全モデル
@@ -18,10 +17,19 @@ AITLは以下のような構造で応えます。
 ---
 
 ## 🧠 AITLの4層構造（コアモデル）
-│  Self-Repair Logic（第4層） ← 故障予兆・自己診断・適応学習
-│  Physical Model Integration（第3層）  ← 力学・熱・電気・環境反映
-│  Control Logic（第2層）← 安定制御・予測・最適化
-│  Inference Logic（第1層） ← 仮説生成・予測・因果推論
+### AITL 4-Layer Architecture
+
+1. 🛠 **Self-Repair Logic（第4層）**  
+　→ 故障予兆・自己診断・適応学習
+
+2. 🌍 **Physical Model Integration（第3層）**  
+　→ 力学・熱・電気・環境反映
+
+3. 🎯 **Control Logic（第2層）**  
+　→ 安定制御・予測・最適化
+
+4. 🔍 **Inference Logic（第1層）**  
+　→ 仮説生成・予測・因果推論
 
 ---
 
@@ -29,26 +37,26 @@ AITLは以下のような構造で応えます。
 
 ### 1. Inference Logic（論理推論層）
 
-- 知識表現、前提と仮説の扱い、確率的予測
-- 複数エージェント間での因果推論と意思決定プロトコル
+- 知識表現、前提と仮説の扱い、確率的予測  
+- 複数エージェント間での因果推論と意思決定プロトコル  
 - AIによる「現実仮説」の構成能力に対応
 
 ### 2. Control Logic（制御理論層）
 
-- PID／状態空間モデル／モデル予測制御（MPC）など
-- 制御則の学習と切り替え（meta-control）
+- PID／状態空間モデル／モデル予測制御（MPC）など  
+- 制御則の学習と切り替え（meta-control）  
 - LQR／適応制御／強化学習制御の理論統合
 
 ### 3. Physical Model Integration（PIML）
 
-- 物理法則（ニュートン、電磁気、エネルギー保存）に基づく学習
-- PIML：Physics-Informed Machine Learning
+- 物理法則（ニュートン、電磁気、エネルギー保存）に基づく学習  
+- PIML：Physics-Informed Machine Learning  
 - 例：流体、構造、熱、ロボットのダイナミクス
 
 ### 4. Self-Repair Logic（自己修復層）
 
-- 故障・異常の兆候検知（early-failure awareness）
-- 自己診断 → 代替手段の導出 → 再適応（自己進化）
+- 故障・異常の兆候検知（early-failure awareness）  
+- 自己診断 → 代替手段の導出 → 再適応（自己進化）  
 - 生体モデル（免疫／再生）を取り入れた制御復元機構
 
 ---
@@ -78,24 +86,24 @@ AITLは以下のような構造で応えます。
 
 ## 🔁 関連展開モデル
 
-- **AITL-R**：ロボティクス実装版（SoC搭載・自律制御型）
-- **AITL-Edu**：教育展開（PoCモジュール・SystemDK）
+- **AITL-R**：ロボティクス実装版（SoC搭載・自律制御型）  
+- **AITL-Edu**：教育展開（PoCモジュール・SystemDK）  
 - **AITL-Eco**：エネルギー自律型AI制御（EcoSmartEdge／SkyShield等）
 
 ---
 
 ## 🔗 関連資料
 
-- README： [AITL 理論概要](../README.md)
-- 提言書： [`AITL_Policy_Proposal_v1.0.md`](AITL_Policy_Proposal_v1.0.md)
-- ロボット構成： [`AITL_Robotics_Structure.md`](AITL_Robotics_Structure.md)
+- 📄 README： [AITL 理論概要](../README.md)  
+- 🏛 提言書： [`AITL_Policy_Proposal_v1.0.md`](AITL_Policy_Proposal_v1.0.md)  
+- 🤖 ロボット構成： [`AITL_Robotics_Structure.md`](AITL_Robotics_Structure.md)
 
 ---
 
 ## ✍ 著者・連絡先
 
-- 著者：**Shinichi Samizo**
-- GitHub：[@samizo-aitl](https://github.com/samizo-aitl)
+- 著者：**Shinichi Samizo**  
+- GitHub：[@samizo-aitl](https://github.com/samizo-aitl)  
 - Email：shin3t72@gmail.com
 
 ---
