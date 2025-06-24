@@ -15,7 +15,7 @@ For questions, collaborations, or discussions, feel free to reach out via GitHub
 AITL（All-in-Theory Logic）は、人工知能技術の高度な**理論統合モデル**です。  
 推論、制御、物理統合、自己修復の4層構造を持ち、AIの多様な機能を一体化して実装・応用できるフレームワークを提供します。
 
-...
+---
 
 ## はじめに
 
@@ -26,7 +26,6 @@ AITL（All-in-Theory Logic）は、
 
 ➡️ [AITLとは？〜やさしい解説〜 (日本語)](docs/intro_presentation.md)
 
-...
 ---
 
 ## 🔧 特徴
