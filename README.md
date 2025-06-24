@@ -61,7 +61,7 @@ AITL/
 │   ├── AITL_Model_v1.0.md         # AITL全体モデル構成解説
 │   ├── AITL_Policy_Proposal_v1.0.md # 政策提言書（経済産業省・NEDO・OpenAI向け）
 │   └── AITL_Robotics_Structure.md # ロボット向け構成・SoC設計
-│   └── intro_presentation.md      # 【追加】初心者向けやさしい解説
+│   └── intro_presentation.md      # 初心者向けやさしい解説
 ├── aitl-core/                     # 理論構成（中核モデル）
 │   ├── inference_logic.md         # 論理推論層詳細
 │   ├── control_design.md          # 制御設計論理
