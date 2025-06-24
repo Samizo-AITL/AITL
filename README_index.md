@@ -1,91 +1,97 @@
 # AITL - All-in-Theory Logic  
-## 📘 Top Index for Theory, Implementation, Spec, and PoC
-
-🌐 **English Overview**
-
-AITL (All-in-Theory Logic) is a multi-layered AI framework integrating logic-based reasoning, control theory, and physical modeling.  
-This repository provides a complete architecture from theory (v1.0) to implementation (v2.0), with specifications and proof-of-concept designs.
+## 📘 理論・実装・仕様・PoC 総合インデックス  
+## 📘 Unified Index for Theory, Implementation, Spec, and PoC
 
 ---
 
-## 📂 Repository Structure
+🌐 **概要 / Overview**
 
-| Directory | Content | Description |
-|----------|---------|-------------|
-| [`theory/`](./theory/) | 📘 **AITL Core Theory** | Logic, Control, and Physical layer models (v1.0) |
-| [`implementation/`](./implementation/) | 💻 **AITL Implementations** | AITL-R (robotics), SkyEdge (drone), etc. (v2.0) |
-| [`spec/`](./spec/) | 📑 **Specifications** | Interface, protocol, and integration specs |
-| [`poc/`](./poc/) | 🧪 **Proof of Concept** | Application-level testing and demonstrations |
+AITL（All-in-Theory Logic）は、論理推論、制御理論、物理モデリングを統合した多層型AIアーキテクチャです。  
+この構成は以下の2つのGitHubリポジトリで運用されています：
 
----
+AITL is a multi-layered AI architecture integrating logical reasoning, control theory, and physics-based modeling.  
+The project spans two coordinated repositories:
 
-## 🧠 Theory Highlights
-
-Theoretical architecture is organized into three core layers:
-
-| Layer | Subfolder | Topics |
-|-------|-----------|--------|
-| Logic Layer | [`theory/logic_layer/`](./theory/logic_layer/) | Belief updating, constraint logic, causal inference |
-| Control Layer | [`theory/control/`](./theory/control/) | MPC, PID, robust control, digital control |
-| Physical Layer | [`theory/physical_layer/`](./theory/physical_layer/) | Kinematics, sensors, actuators, disturbances |
-
-📘 Entry Point → [`theory/README.md`](./theory/README.md)
+- **理論リポジトリ (v1.0)**： [Samizo-AITL/theory](https://github.com/Samizo-AITL/theory)  
+- **実装リポジトリ (v2.0)**：本リポジトリ（Samizo-AITL/AITL）  
 
 ---
 
-## 🛠 Implementation Projects (v2.0)
+## 📂 構成一覧 / Repository Structure
 
-| Project | Path | Description |
-|---------|------|-------------|
-| AITL-R | [`implementation/robotics/`](./implementation/robotics/) | Logic + Control + Physical integration in robotics |
-| SkyEdge | [`implementation/drone/`](./implementation/drone/) | Drone control and decision architecture |
-| Communication & Diagnostics | [`implementation/communication.md`](./implementation/communication.md) | Core messaging and status interface |
-
----
-
-## 📑 Spec and Interface
-
-| Document | Purpose |
-|----------|---------|
-| [`spec/control_interface.md`](./spec/control_interface.md) | Actuator & sensor interface definitions |
-| [`spec/fault_handling.md`](./spec/fault_handling.md) | Error propagation and self-repair protocol |
-| [`spec/logic_runtime.md`](./spec/logic_runtime.md) | Execution model for inference modules |
+| 区分 | パス | 説明 / Description |
+|------|------|-------------------|
+| **理論** / Theory | [Samizo-AITL/theory](https://github.com/Samizo-AITL/theory) | 論理・制御・物理層の理論（別リポジトリ） / Core logic, control, and physical models |
+| **実装** / Implementation | `implementation/` | 実環境での理論適用（ロボット・ドローン）/ Real-world use |
+| **仕様** / Specs | `spec/` (各機体ごと) | 制御信号・インターフェース定義 / Interfaces and protocols |
+| **PoC** | `poc/` (各機体ごと) | 検証用実装例・応用 / Use-case validations |
 
 ---
 
-## 🧪 PoC Examples
+## 🧠 理論構成 / Theory Layers
 
-| Case | Path | Description |
-|------|------|-------------|
-| Simulation: Multi-agent recovery | [`poc/multiagent_recovery.md`](./poc/multiagent_recovery.md) | Logical recovery from multi-agent faults |
-| Drone route replanning | [`poc/drone_path.md`](./poc/drone_path.md) | Environmental adaptation using physical + control logic |
-| Robot diagnostic mode | [`poc/diagnostics.md`](./poc/diagnostics.md) | Sensor degradation and fallback mode activation |
+📘 理論は [Samizo-AITL/theory](https://github.com/Samizo-AITL/theory) に格納されています。  
+📘 Core theory is maintained in [Samizo-AITL/theory](https://github.com/Samizo-AITL/theory).
 
----
+| 層 / Layer | ディレクトリ | 内容 / Topics |
+|------------|--------------|---------------|
+| 推論層 / Reasoning Layer | `theory/reasoning/` | 状態推論、制約論理、因果関係 / Logic programming, belief inference |
+| 制御層 / Control Layer | `theory/control/` | PID, MPC, デジタル制御、ロバスト制御 / PID, MPC, digital, robust |
+| 物理層 / Physics Layer | `theory/physics/` | 動力学、センサ・外乱モデル / Physical dynamics, interfacing |
 
-## 📚 Contribution and Development
-
-- Author: **Shinichi Samizo** (三溝 真一)  
-- License: [MIT License](./LICENSE)  
-- Contributions welcome: Please fork, improve, or open issues
+🔗 理論トップ / Entry: [`theory/README.md`](https://github.com/Samizo-AITL/theory/blob/main/README.md)
 
 ---
 
-## 🔗 Related Platforms
+## 🤖 実装構成 / Implementation Projects
 
-- Zenn (theory summaries): _coming soon_  
-- OpenSim-AITL: *experimental physics + AITL interface simulator*  
-- Education Project: [`edusemi`](https://github.com/your-org/edusemi)
+| プラットフォーム | パス | 内容 / Description |
+|------------------|------|--------------------|
+| AITL-R（ロボット） | `implementation/robot/` | 推論・制御・物理層統合の自律ロボット制御 / Full logic-to-physics robot AI |
+| SkyEdge（ドローン） | `implementation/drone/` | 経路・姿勢・外乱対応を含む飛行AI / Flight control & dynamic planning |
+
+各構成には以下が含まれます：  
+Each platform contains:
+
+- `poc/`: 検証用デモ / Proof-of-concepts  
+- `spec/`: インターフェース仕様 / Actuator & logic interface
 
 ---
 
-## 🏁 Entry Point for Readers
+## 🛠 利用例 / Use Cases
 
-To begin exploring the AITL architecture:
+| 対象 / Platform | 応用例 / Use | PoC |
+|------------------|-------------|-----|
+| AITL-R | 故障検知と自律復旧 / Self-repair logic | `robot/poc/diagnostics.md` |
+| SkyEdge | 飛行ルート再計画 / Dynamic route replanning | `drone/poc/drone_path.md` |
+| マルチエージェント | 協調型復旧制御 / Cooperative fault logic | `drone/poc/multiagent_recovery.md` |
 
-👉 Start with the [theory overview](./theory/README.md)  
-👉 Then navigate to [implementation/](./implementation/) for real-world designs  
-👉 Use [spec/](./spec/) to align system integration  
-👉 Try [poc/](./poc/) for applied use-cases and simulation
+---
+
+## 📑 仕様定義 / Spec Documents
+
+各機体配下の `spec/` に整理されています：  
+Specs are defined under each `/spec/` folder:
+
+- `control_interface.md`: 制御信号とフィードバック構造  
+- `fault_handling.md`: 故障対応・異常伝播の制御論  
+- `logic_runtime.md`: 推論エンジンの実行仕様
+
+---
+
+## 👤 著作・貢献 / Author & Contribution
+
+- 開発者 / Author: **三溝 真一（Shinichi Samizo）**  
+- ライセンス / License: [MIT License](./LICENSE)  
+- 貢献歓迎 / Contributions welcome: Fork, improve, or open issues
+
+---
+
+## 🚀 はじめに / Getting Started
+
+1. 理論を理解 → [Samizo-AITL/theory](https://github.com/Samizo-AITL/theory)  
+2. 実装を参照 → `implementation/`（robot, drone）  
+3. 仕様で接続確認 → `spec/`  
+4. 応用PoCで動作確認 → `poc/`  
 
 ---
