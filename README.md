@@ -65,8 +65,7 @@ AIの構造化・物理整合・自己修復といった要素を、教育や理
 
 ## 🌐 英語版 README
 
-👉 [README.md](README.md) をご覧ください（英語版）
-
+🌐 For English version: See [README_en.md](README_en.md)
 ---
 
 ## 📜 著作権と利用許諾について
