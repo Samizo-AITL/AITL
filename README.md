@@ -1,4 +1,4 @@
-　# 🧠 AITL - All-in-Theory Logic
+## 🧠 AITL - All-in-Theory Logic
 
 ---
 
