@@ -1,57 +1,56 @@
-# • AITL Model v1.0
-
-AITL（All-in-Theory Logic）統合理論モデル構成書
+# 📘 AITL Model v1.0  
+### 統合理論モデル構成書 / Unified Theoretical Model (v1.0)
 
 ---
 
 ## 🎯 目的と背景
 
-AITLは、AIによる論理推論、制御設計、物理世界との適応を一つの統合モデルで実現するために設計されました。  
-従来のLLMや機械学習が抱えていた課題 ―  
-「物理的リアリティの欠如」「制御設計との乖離」「説明可能性の脆弱さ」 に対し、AITLは以下のような構造で応えます：
+AITL（All-in-Theory Logic）は、AIによる**論理推論、制御設計、物理世界との整合**を一つの統合モデルで実現するために設計されました。  
+従来のLLMや機械学習が抱えていた課題：
+
+- 「物理的リアリティの欠如」
+- 「制御設計との乖離」
+- 「説明可能性の脆弱さ」
+
+に対し、AITLは以下のように応えます：
 
 - AI + Control + Physics を統合した次世代AIの理論基盤  
-- LLM非依存、自律・予測・自己修復を含む完全モデル  
-- 実装容易性を考慮した階層構造と設計仕様  
+- LLM非依存で、自律・予測・自己修復も扱える完全モデル  
+- 実装容易性を考慮した階層構造と設計仕様
 
 ---
 
-## 🧠 AITLの4層構造（コアモデル）
+## 🧠 AITLの3層構造（推論・制御・物理）
 
-### 📐 AITL 4-Layer Architecture
+> ※ 自己修復ロジックは推論層内の高度機能として統合しています。
 
-1. 🛠 **Self-Repair Logic（第4層）** → 故障予兆・自己診断・適応学習  
-2. 🌍 **Physical Model Integration（第3層）** → 力学・熱・電気・環境反映  
-3. 🎯 **Control Logic（第2層）** → 安定制御・予測・最適化  
-4. 🔍 **Inference Logic（第1層）** → 仮説生成・予測・因果推論  
+| 層 | 名称 | 主な内容 |
+|----|------|-----------|
+| 1 | 🔍 Inference Logic（推論層） | 仮説生成、因果推論、適応判断、自己修復ロジック |
+| 2 | 🎯 Control Logic（制御層） | PID、MPC、状態空間制御、強化学習制御 |
+| 3 | 🌍 Physical Integration（物理統合層） | 力学、熱・電気モデリング、センサ統合、PIML |
 
 ---
 
 ## 🔎 各層の概要
 
-### 1. Inference Logic（論理推論層）
+### 1. Inference Logic（推論層）
 
-- 知識表現、前提と仮説の扱い、確率的予測  
-- 複数エージェント間での因果推論と意思決定プロトコル  
-- AIによる「現実仮説」の構成能力に対応  
+- 知識表現、仮説生成、因果推論
+- 異常検出や自己診断に基づく適応判断（＝自己修復ロジック）
+- 複数エージェント間の意思決定と共有認識の構築
 
-### 2. Control Logic（制御理論層）
+### 2. Control Logic（制御層）
 
-- PID／状態空間モデル／モデル予測制御（MPC）など  
-- 制御則の学習と切り替え（meta-control）  
-- LQR／適応制御／強化学習制御の理論統合  
+- PID制御、状態空間モデル、MPC、強化学習制御
+- 制御戦略の切り替え（meta-control）、安定性と性能の両立
+- 学習制御（LQR, Adaptive Control等）との統合
 
-### 3. Physical Model Integration（PIML）
+### 3. Physical Integration（物理統合層）
 
-- 物理法則（ニュートン、電磁気、エネルギー保存）に基づく学習  
-- **PIML：Physics-Informed Machine Learning**  
-- 例：流体、構造、熱、ロボットのダイナミクス  
-
-### 4. Self-Repair Logic（自己修復層）
-
-- 故障・異常の兆候検知（early-failure awareness）  
-- 自己診断 → 代替手段の導出 → 再適応（自己進化）  
-- 生体モデル（免疫／再生）を取り入れた制御復元機構  
+- ダイナミクス（力学、電磁気、構造等）に基づく制御適用
+- センサ・アクチュエータ・外乱処理を含む現実的モデリング
+- PIML（Physics-Informed Machine Learning）の導入
 
 ---
 
@@ -59,43 +58,50 @@ AITLは、AIによる論理推論、制御設計、物理世界との適応を�
 
 | 特徴 | 内容 |
 |------|------|
-| 理論一体化 | 論理・制御・物理・修復を統合した構成 |
-| 非LLM依存 | GPT等に頼らず、自律型の汎用AI設計 |
-| 分割可能構成 | 各層は独立にPoC／モジュール実装可能 |
-| SoC展開適性 | ハードウェア設計にも展開可能（AITL-R） |
-| 教育適用性 | 高専〜大学教育用AI教材としても使用可 |
+| 理論一体化 | 推論・制御・物理を統合した整合構造 |
+| 自己修復統合 | 故障検出・適応判断を推論層に包含 |
+| 非LLM依存 | GPT等に頼らない、決定論型AI構造 |
+| PoC適合性 | 各層単独でもPoC検証可能な設計 |
+| SoC展開適性 | エッジAI・ハード実装（AITL-R等）へ展開可能 |
+| 教育展開性 | 高専～大学向け教材に応用可能（SystemDK等）
 
 ---
 
-## 📐 モジュール構成（ソフト・ハード連携）
+## 🛠 モジュール構成（ソフト・ハード連携の一例）
 
-| 階層 | ソフト設計 | ハード実装 | 備考 |
-|------|-------------|-------------|------|
-| Self-Repair | 異常予兆／代替行動AI | 診断チップ（0.35µm） | 冗長系接続可 |
-| Physical Model | PIMLモデル（Python） | モデルベース制御SoC | SkyHyEV内蔵候補 |
-| Control | 最適制御器・強化学習制御 | 制御DSP／RISC-V | 0.18µm CMOSなど |
-| Inference | 仮説生成AI、知識DB | LLMまたは軽量NN | Edge／Offline可 |
+| 層 | ソフト設計 | ハード実装 | 備考 |
+|----|-------------|------------|------|
+| 推論層 | 知識DB・推論エンジン・異常検出 | 軽量NN / RISC-V上AIロジック | 自己修復ロジック含む |
+| 制御層 | MPC/LQR/強化学習アルゴリズム | 制御SoC・DSP | 0.18µm CMOS等 |
+| 物理層 | PIMLモデル・動的シミュレータ | センサ/アクチュエータ・モーター制御回路 | SkyHyEVなどに展開可能 |
 
 ---
 
 ## 🔁 関連展開モデル
 
-- **AITL-R**：ロボティクス実装版（SoC搭載・自律制御型）  
-- **AITL-Edu**：教育展開（PoCモジュール・SystemDK）  
-- **AITL-Eco**：エネルギー自律型AI制御（EcoSmartEdge／SkyShield等）  
+- **AITL-R**：ロボティクス応用（SoC実装型）
+- **AITL-Edu**：教育展開（教材＋PoC）
+- **AITL-Eco**：省電力・環境適応型AI（SkyEdge, SkyShield）
 
 ---
 
 ## 🔗 関連資料
 
-- 📄 `README.md`：AITL理論概要  
-- 🏛 `AITL_Policy_Proposal_v1.0.md`：政府・機関向け政策提言書  
-- 🤖 `Robotics_Module_v1.0-R.md`：ロボティクス実装構成（AITL-R）  
+- 📄 `README.md`：AITL理論全体概要
+- 🏛 `AITL_Policy_Proposal_v1.0.md`：政策提言書（公共・教育向け）
+- 🤖 `Robotics_Module_v1.0-R.md`：AITL-R構成案
 
 ---
 
 ## ✍ 著者・連絡先
 
-- **著者**：Shinichi Samizo  
-- **GitHub**：[@samizo-aitl](https://github.com/samizo-aitl)  
-- **Email**：shin3t72@gmail.com  
+- 著者：三溝 真一（Shinichi Samizo）  
+- GitHub：[@samizo-aitl](https://github.com/samizo-aitl)  
+- Email：shin3t72@gmail.com  
+
+---
+
+## 📜 ライセンス
+
+本資料および関連構想は、MITライセンスのもとで公開しています。  
+自由に複製・改変・再配布可能ですが、著作権表示と本ライセンスの記載を保持してください。
