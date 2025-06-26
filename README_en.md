@@ -1,81 +1,103 @@
-# 🧠 AITL - All-in-Theory Logic
-
-**AITL (All-in-Theory Logic)** is a theoretical AI framework designed to organize and explain the structure of intelligent systems.  
-It consists of a four-layer model—Inference, Control, Physical Integration, and Self-Repair—aimed at educational use and conceptual understanding.
-
-Although implementation is currently limited, this project is openly shared to support learning, discussion, and future development.
+# 🧠 AITL - All-in-Theory Logic (English Overview)
 
 ---
 
-## ✍️ About This Project
+## Overview
 
-This repository began as an attempt to reconsider AI structure from the perspective of **semiconductor device engineering**.  
-It summarizes key components such as system logic, physical integration, and self-repair, mainly for **educational and theoretical purposes**.
+**AITL (All-in-Theory Logic)** is a theoretical framework designed to structure next-generation intelligent systems.  
+Based on a three-layer architecture—**Logic, Control, and Physical**—AITL aims to support structural understanding, system design, and educational use of AI.
 
-> 🔎 This project is not intended as a finished software product.  
-> Its focus is on sharing a theoretical model, learning materials, and open proposals.
-
----
-
-## 🧱 Overview of the 4-Layer Model
-
-| Layer               | Role & Purpose                                  |
-|---------------------|--------------------------------------------------|
-| Inference Logic     | Hypothesis generation, causal reasoning, decision support |
-| Control Logic       | PID control, model predictive control, reinforcement learning |
-| Physical Integration| Sensor fusion, signal alignment, real-world interaction |
-| Self-Repair Logic   | Anomaly detection, system reconfiguration, adaptive learning |
-
-👉 For details, see [docs/AITL_Model_v1.0.md](docs/AITL_Model_v1.0.md)
+Unlike data-driven approaches, AITL emphasizes deterministic, interpretable, and modular reasoning.  
+It also includes **PoC-level system design and implementation planning** (e.g., drones, robotics), offering a comprehensive foundation for AI engineering.
 
 ---
 
-## 📚 Repository Structure
+## Versions and Structure
+
+| Version | Description | Target Directories |
+|---------|-------------|---------------------|
+| **v1.0** | Core theoretical models (Logic, Control, Physical) | `theory/` |
+| **v2.0** | Added PoC manuals and implementation structure proposals | `PoC/`, `AITL/implementation/` |
+
+> ✅ **v2.0 includes practical design structures for control and implementation, derived from the core theory.**
+
+---
+
+## Project Structure
+
+AITL consists of three key directories in a conceptual pipeline:
 ```
-/docs/               → Theory documentation, educational material, policy drafts
-/aitl-core/          → Conceptual logic layer designs (not implementations)
-/aitl-r/             → Ideas for robotics/SoC applications
-/implementation/     → Proof-of-concept materials (in progress)
-/examples/           → Example use cases and learning materials (to be expanded)
+theory/                   ──▶   PoC/                       ──▶   AITL/implementation/
+(Theoretical Core)              (Control Design and PoC)          (Application-level Architecture)
 ```
----
-
-## 🤝 Collaboration
-
-This project is intended for concept sharing and academic or educational use, not the delivery of completed results.
-
-- Contributions in control design, robotics, or embedded implementation are welcome  
-- Open to extensions, derivative works, or collaborative research  
-- Freely usable for lectures and educational content (MIT License)
-
-👉 A `CONTRIBUTING.md` will be added to outline policies.
+| Directory | Description |
+|-----------|-------------|
+| `theory/` | Theoretical models for the three-layer architecture (logic, control, physical). |
+| `PoC/` | Manuals and system structures for concept verification and design. |
+| `AITL/implementation/` | Application structures for drones (SkyEdge), robots (AITL-R), etc. |
 
 ---
 
-## 👤 Author
+## Model Overview (Three Layers)
 
-- **Shinichi Samizo**  
-  M.S., Shinshu University; Former Seiko Epson engineer  
-  Specialty: **Semiconductor device engineering** (process, structure, materials)  
-- GitHub: [@samizo-aitl](https://github.com/samizo-aitl)  
-- Email: shin3t72@gmail.com
-
----
-
-🌐 日本語版はこちら: [README.md](README.md)
+| Layer | Description |
+|-------|-------------|
+| **Logic Layer** | State recognition, hypothesis generation, decision-making, constraint reasoning. |
+| **Control Layer** | Signal generation using MPC, PID, and robust control techniques. |
+| **Physical Layer** | Connection with the real world (dynamics, sensors, actuators, noise/disturbance handling). |
 
 ---
 
-## 📜 Copyright and License
+## Applications and Use Cases
 
-This project, **AITL (All-in-Theory Logic)**, was proposed and written by  
-**Shinichi Samizo**.
-
-All content is released under the **MIT License**,  
-allowing free use, modification, and redistribution.
-
-Please retain the copyright notice and license text when reusing.
+| Name | Description |
+|------|-------------|
+| **AITL-R** | Robot-oriented logic (autonomy, redundancy control, fault prediction). |
+| **SkyEdge** | Flight control and decision-making for drones. |
+| **PoC Manual** | Documentation for control design and practical system structures. |
 
 ---
 
-© 2025 Shinichi Samizo
+## About This Project
+
+This repository was launched as a **re-examination of AI architecture from the perspective of semiconductor device engineering**.  
+It focuses on concepts such as structural AI design, physical consistency, and fault tolerance,  
+offered in the form of theoretical proposals and educational materials.
+
+> 🔎 **This project is not intended to deliver complete implementations or algorithms.**  
+> Its focus is on conceptual modeling, learning support, and open proposal sharing.
+
+---
+
+## Contribution
+
+This project aims to promote concept sharing and educational/research collaboration.  
+In the future, we are open to contributions such as:
+
+- Technical collaboration in implementation, control system design, and robotics  
+- Collaborative research based on the AITL architecture  
+- Free use of AITL materials for education and instruction (MIT License)
+
+🔧 **Note:** As of now, full implementation and testing environments (e.g., development hardware) are **not yet available**,  
+so technical contributions and research collaborations remain **future goals**.
+
+👉 `CONTRIBUTING.md` will be prepared soon to guide collaboration.
+
+---
+
+## Author & License
+
+- **Author/Proposal**: Shinichi Samizo  
+  M.Sc., Shinshu University / Formerly at Seiko Epson  
+  **Field of Expertise**: Semiconductor Device Engineering  
+
+- **License**: MIT License  
+  All concepts and materials in the AITL project are freely available for use, modification, and redistribution under the MIT License.  
+  Please retain copyright notices.
+
+GitHub: [@samizo-aitl](https://github.com/samizo-aitl)  
+Email: shin3t72@gmail.com
+
+---
+
+## 日本語版はこちら → [`README.md`](./README.md)
