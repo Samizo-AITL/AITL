@@ -1,97 +1,84 @@
-# AITL - All-in-Theory Logic
+# 🧠 AITL - All-in-Theory Logic
 
-🌐 **English Overview**  
-AITL (All-in-Theory Logic) is a next-generation theoretical framework for Artificial Intelligence  
-that integrates logical inference, control systems, physics-informed modeling, and self-repair mechanisms.  
-Unlike LLM-based models, AITL functions as an independent core architecture applicable to robotics, edge AI, disaster-response systems, and autonomous control.  
-This repository contains the full model specification, robotics implementation (AITL-R), and related policy proposals.  
-For questions or collaborations, feel free to reach out via GitHub or email.
+**AITL（All-in-Theory Logic）** は、知能システムの構造を理論的に整理するためのAIフレームワーク構想です。  
+推論、制御、物理的統合、自己修復の4層モデルにより、AIの構造的理解や教育活用を目的としています。
+
+まだ実装は限定的ですが、構想の共有と学習支援を重視し、今後の発展に向けて開かれた形で公開しています。
 
 ---
 
-## 📑 目次 / Table of Contents
+## ✍️ このプロジェクトについて
 
-1. [🧠 概要](#🧠-概要)
-2. [🔧 特徴](#🔧-特徴)
-3. [🧱 4層構造](#🧱-4層構造)
-4. [📁 フォルダ構成](#📁-フォルダ構成)
-5. [📚 参考資料](#📚-参考資料)
-6. [👤 著者情報](#👤-著者情報)
-7. [📞 お問い合わせ](#📞-お問い合わせ)
-8. [📂 技術構成インデックス（リンク）](#📂-技術構成インデックスリンク)
+本リポジトリは、**半導体デバイス技術の視点からAI構造を再考する試み**として立ち上げられました。  
+AIの構造化・物理整合・自己修復といった要素を、教育や理論提案の形でまとめています。
+
+> 🔎 実装やアルゴリズムの完成を目的としたものではありません。  
+> **理論モデルの検討・学習資料の提供・提案の共有**を主眼としています。
 
 ---
 
-## 🧠 概要
+## 🧱 モデルの概要（4層構造）
 
-AITL（All-in-Theory Logic）は、人工知能技術の高度な理論統合モデルです。  
-推論、制御、物理統合、自己修復の4層構造を持ち、AIの多様な機能を一体化して実装・応用できるフレームワークを提供します。
+| 層名 | 主な役割 |
+|------|-----------|
+| 推論層（Inference Logic） | 仮説生成、因果推論、意思決定支援 |
+| 制御層（Control Logic） | PID制御、モデル予測制御、強化学習制御など |
+| 物理統合層（Physical Integration） | センサ融合、信号整合、物理現象への対応 |
+| 自己修復層（Self-Repair Logic） | 異常検出、再構成、適応的な学習制御 |
 
----
-
-## 🔧 特徴
-
-- 多層構造：推論層、制御層、物理統合層、自己修復層を統合  
-- 高信頼性と自己修復：異常検知から制御の再構成、強化学習による適応までカバー  
-- 応用分野：自律ロボティクス、災害対応モビリティ、エッジAIなど
+👉 詳細は [docs/AITL_Model_v1.0.md](docs/AITL_Model_v1.0.md) をご覧ください。
 
 ---
 
-## 🧱 4層構造
-
-| 層名 | 機能概要 |
-|------|----------|
-| Inference Logic | 仮説生成、因果推論、意思決定 |
-| Control Logic | PID制御、MPC、強化学習制御 |
-| Physical Integration | 物理信号整合、センサ処理 |
-| Self-Repair Logic | 異常検知、再構成、適応学習 |
-
+## 📚 ドキュメント構成
+```
+/docs/               → 理論構成、教育資料、政策提案など
+/aitl-core/          → 概念的な層構造モジュール（実装ではなく設計案）
+/aitl-r/             → ロボット・SoC向けの適用案（草案）
+/implementation/     → PoC構成の整理（開発協力歓迎）
+/examples/           → 教材・例題（拡充予定）
+```
 ---
 
-## 📁 フォルダ構成
+## 🤝 協力について
 
-- `docs/`  
-  モデル構成・政策提言書・初心者向け資料等  
-- `aitl-core/`  
-  理論コアモジュール（推論・制御・物理統合・自己修復）  
-- `aitl-r/`  
-  ロボット向け実装・SoC設計関連  
-- `implementation/`  
-  ドローンおよびロボット向け実装・PoC仕様書などの補足フォルダ  
-  → 詳細は `implementation/` 内の各READMEをご参照ください。
+このプロジェクトは、実装や成果の完成を目指すものではなく、  
+**構想の共有と、教育・研究への活用を目的としています。**
 
-> **補足**：`aitl-core/` および `aitl-r/` の内容は、現在 `implementation/` 以下に整理・統合されつつあります。
+- 実装・制御設計・ロボティクスなどの技術的貢献は歓迎です  
+- 本構想をもとにした展開や共同研究なども可能です  
+- 教育・指導用資料としての活用も自由です（MITライセンス）
 
----
-
-## 📚 参考資料
-
-- `docs/AITL_Model_v1.0.md` — AITL全体構成と理論階層の解説  
-- `docs/AITL_Policy_Proposal_v1.0.md` — 政策提言書（経済産業省・NEDO・OpenAI向け）  
-- `docs/AITL_Robotics_Structure.md` — AITL-Rのロボット向け構成案  
-- `aitl-core/` 以下の理論ドキュメント群  
-- `aitl-r/` 以下のロボットSoC設計関連文書
+👉 [`CONTRIBUTING.md`](CONTRIBUTING.md) に方針を整備予定です。
 
 ---
 
 ## 👤 著者情報
 
-- 作成者：Shinichi Samizo（半導体デバイス技術）  
+- **三溝 真一（Shinichi Samizo）**  
+　信州大学大学院 修士課程修了、元セイコーエプソン  
+　専門分野：**半導体デバイス技術**（プロセス・材料・構造）  
 - GitHub：[@samizo-aitl](https://github.com/samizo-aitl)  
 - Email：shin3t72@gmail.com
 
 ---
 
-## 📞 お問い合わせ
+## 🌐 英語版 README
 
-- GitHub Discussions: AITL Discussions  
-- Email: shin3t72@gmail.com
+👉 [README.md](README.md) をご覧ください（英語版）
+
+---
+
+## 📜 著作権と利用許諾について
+
+本プロジェクト「AITL（All-in-Theory Logic）」の構想および関連資料は、  
+**三溝 真一（Shinichi Samizo）** が提案・作成したものです。
+
+本構想および資料は、**MITライセンス**のもとで公開しており、  
+自由に利用・改変・再配布が可能です。
+
+利用の際は、著作権表示および本ライセンス文を保持してください。
 
 ---
 
-## 📂 技術構成インデックス（リンク）
-
-📘 技術的なフォルダ構成や理論層／実装構成などのナビゲーションは以下をご覧ください：  
-👉 [README_index.md](./README_index.md)
-
----
+© 2025 Shinichi Samizo
