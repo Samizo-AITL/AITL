@@ -81,4 +81,4 @@ Email: shin3t72@gmail.com
 
 ---
 
-/## 日本語版はこちら → README.md
+## 日本語版はこちら → README.md
