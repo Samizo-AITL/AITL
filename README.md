@@ -96,4 +96,5 @@ Email: shin3t72@gmail.com
 
 ## English Version
 
-👉 See README_en.md for English overview.
+👉 See [README_en.md](README_en.md) for English overview.
+
