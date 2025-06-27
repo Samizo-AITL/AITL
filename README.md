@@ -55,10 +55,10 @@ theory/                   ──▶   PoC/                       ──▶   AIT
 
 AITLの理論から実装への流れ、ならびにモジュール分解・PoCへの展開手順は以下に整理されています。
 
-- 🧩 **[AITL System Implementation Guide](AITL/doc/AITL_SystemGuide.md)**  
+- 🧩 **[AITL System Implementation Guide](doc/AITL_SystemGuide.md)**  
   フィードバック制御システム構成図、SoCモジュール実装図、PoC構成までを視覚化・体系化したガイドです。
 
-- 🧠 **[AITL Theory-to-Implementation Mapping](AITL/doc/AITL_TheoryMapping.md)**  
+- 🧠 **[AITL Theory-to-Implementation Mapping](doc/AITL_TheoryMapping.md)**  
   物理理論、制御理論、AI理論などの各理論がどの工程で実装されているかを対応表でまとめています。
 
 ---
