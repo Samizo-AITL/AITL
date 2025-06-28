@@ -28,7 +28,7 @@
 
 ## 🔗 主な関連ファイル・リンク
 
-- [SoC PoC Manual v5.0（aitl-lab/docs配下）](../SoC_PoC_Manual_v5.0.md)：本プロジェクトのPoC設計方針のベース
+- [SoC PoC Manual v5.0（aitl-lab/docs配下）](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md)：本プロジェクトのPoC設計方針のベース
 - `robot-spec/module_spec_list.md`：ロボットを構成する各ICモジュールのプロセス・機能まとめ
 - `SystemDK-design/conversion_cases.md`：PoCDK→SystemDKの変換事例集
 
