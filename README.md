@@ -59,6 +59,16 @@ AITLの理論から実装への流れ、ならびにモジュール分解・PoC�
 | SkyEdge  | ドローン飛行制御と構造的判断の応用設計案         |
 | PoCマニュアル | 制御・実装設計に至る構成と構想の整理資料群         |
 
+## 🔗 関連ドキュメント（内部リンク）
+
+- [AITL_Intro_For_Beginners.md](./docs/AITL_Intro_For_Beginners.md)：AITL入門ガイド  
+- [AITL_Theory_Framework.md](./docs/AITL_Theory_Framework.md)：AITL理論の全体像と構成原理  
+- [AITL_Adopted_Theories.md](./docs/AITL_Adopted_Theories.md)：採用理論一覧と選定根拠
+
+## 📫 フィードバック歓迎
+
+このプロジェクトは現在も進行中です。ドキュメントへの改善提案、理論への質問、PoC実装への参画など、IssueまたはDiscussionsでのご参加をお待ちしています。
+
 ## 本プロジェクトについて
 
 本リポジトリは、半導体デバイス技術の視点からAI構造を再考する試みとして立ち上げられました。  
