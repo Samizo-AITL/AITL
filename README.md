@@ -80,7 +80,7 @@ AITL構想は以下のようなPoC実装・応用システムに展開されて�
 | **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | [`AgriEdge`](./EcoPowerPlatform/AgriEdge/), [`EcoAgriPower`](./EcoPowerPlatform/EcoAgriPower/) |
 | **SkyShield**     | 防災・防衛・公共安全     | Militaryモデル中心                 | [`Military`](./EcoPowerPlatform/Military/) |
 
-📄 各プロジェクトの概要・構成・背景は [`docs/Projects.md`](./docs/Projects.md) に詳述しています。
+📄 各プロジェクトの概要・構成・背景は [docs/Projects.md](./docs/Projects.md) に詳述しています。
 
 ---
 
