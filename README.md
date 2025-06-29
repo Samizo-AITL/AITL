@@ -80,6 +80,15 @@ AITL構想は以下のようなPoC実装・応用システムに展開されて�
 | **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | `docs/EcoPowerPlatform/AgriEdge/`, `.../EcoAgriPower/` を参照 |
 | **SkyShield**     | 防災・防衛・公共安全     | Militaryモデル中心                 | `docs/EcoPowerPlatform/Military/` を参照 |
 
+| 名称              | 用途・対象               | モデル構成                         | 関連ドキュメントの案内 |
+|-------------------|--------------------------|-------------------------------------|--------------------------|
+| **AITL-R**        | 自律ロボット             | 自己修復・推論制御                 | [Robotics](../Robotics/) |
+| **SkyEdge**       | 次世代ドローン           | AI制御＋4Kカメラ＋高度エッジ       | [SkyEdge](EcoPowerPlatform/SkyEdge/) |
+| **EcoSmartEdge**  | 産業DX・スマートIoT      | Standard / Professional モデル     | [Standard](EcoPowerPlatform/Standard/), [Professional](EcoPowerPlatform/Professional/) |
+| **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | [AgriEdge](EcoPowerPlatform/AgriEdge/), [EcoAgriPower](EcoPowerPlatform/EcoAgriPower/) |
+| **SkyShield**     | 防災・防衛・公共安全     | Militaryモデル中心                 | [Military](EcoPowerPlatform/Military/) |
+
+
 📄 各プロジェクトの概要・構成・背景は [docs/Projects.md](./docs/Projects.md) に詳述しています。
 
 ---
