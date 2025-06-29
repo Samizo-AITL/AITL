@@ -137,3 +137,7 @@ Guidelines will be provided in a future version of `CONTRIBUTING.md`.
 
 GitHub: [@Samizo-AITL](https://github.com/Samizo-AITL)  
 Email: shin3t72@gmail.com
+
+---
+
+📄 [日本語版はこちら](./README.md)
