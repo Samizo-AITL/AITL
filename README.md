@@ -74,7 +74,7 @@ AITL構想は以下のようなPoC実装・応用システムに展開されて�
 
 | 名称              | 用途・対象               | モデル構成                         | 関連ドキュメント |
 |-------------------|--------------------------|-------------------------------------|------------------|
-| **AITL-R**        | 自律ロボット             | 自己修復・推論制御                 | [Robotics](https://samizo-aitl.github.io/AITL/Robotics/) |
+| **AITL-R**        | 自律ロボット             | 自己修復・推論制御                 | Robotics: GitHub Pages未公開（`docs/Robotics/`以下を参照） |
 | **SkyEdge**       | 次世代ドローン           | AI制御＋4Kカメラ＋高度エッジ       | [SkyEdge](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/SkyEdge/) |
 | **EcoSmartEdge**  | 産業DX・スマートIoT      | Standard / Professional モデル     | [Standard](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/Standard/), [Professional](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/Professional/) |
 | **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | [AgriEdge](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/AgriEdge/), [EcoAgriPower](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/EcoAgriPower/) |
