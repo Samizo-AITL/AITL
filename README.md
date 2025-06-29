@@ -72,13 +72,13 @@ AITLの理論 → 実装への流れ、およびモジュール分解・PoC展�
 
 AITL構想は以下のようなPoC実装・応用システムに展開されています：
 
-| 名称              | 用途・対象               | モデル構成                         | 関連ドキュメント |
-|-------------------|--------------------------|-------------------------------------|------------------|
-| **AITL-R**        | 自律ロボット             | 自己修復・推論制御                 | Robotics: GitHub Pages未公開（`docs/Robotics/`以下を参照） |
-| **SkyEdge**       | 次世代ドローン           | AI制御＋4Kカメラ＋高度エッジ       | [SkyEdge](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/SkyEdge/) |
-| **EcoSmartEdge**  | 産業DX・スマートIoT      | Standard / Professional モデル     | [Standard](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/Standard/), [Professional](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/Professional/) |
-| **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | [AgriEdge](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/AgriEdge/), [EcoAgriPower](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/EcoAgriPower/) |
-| **SkyShield**     | 防災・防衛・公共安全     | Militaryモデル中心                 | [Military](https://samizo-aitl.github.io/AITL/EcoPowerPlatform/Military/) |
+| 名称              | 用途・対象               | モデル構成                         | 関連ドキュメントの案内 |
+|-------------------|--------------------------|-------------------------------------|--------------------------|
+| **AITL-R**        | 自律ロボット             | 自己修復・推論制御                 | `docs/Robotics/` を参照 |
+| **SkyEdge**       | 次世代ドローン           | AI制御＋4Kカメラ＋高度エッジ       | `docs/EcoPowerPlatform/SkyEdge/` を参照 |
+| **EcoSmartEdge**  | 産業DX・スマートIoT      | Standard / Professional モデル     | `docs/EcoPowerPlatform/Standard/`, `.../Professional/` を参照 |
+| **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | `docs/EcoPowerPlatform/AgriEdge/`, `.../EcoAgriPower/` を参照 |
+| **SkyShield**     | 防災・防衛・公共安全     | Militaryモデル中心                 | `docs/EcoPowerPlatform/Military/` を参照 |
 
 📄 各プロジェクトの概要・構成・背景は [docs/Projects.md](./docs/Projects.md) に詳述しています。
 
