@@ -78,7 +78,7 @@ AITL構想は以下のようなPoC実装・応用システムに展開されて�
 | **SkyEdge**       | 次世代ドローン           | AI制御＋4Kカメラ＋高度エッジ       | [`SkyEdge`](./EcoPowerPlatform/SkyEdge/) |
 | **EcoSmartEdge**  | 産業DX・スマートIoT      | Standard / Professional モデル     | [`Standard`](./EcoPowerPlatform/Standard/), [`Professional`](./EcoPowerPlatform/Professional/) |
 | **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | [`AgriEdge`](./EcoPowerPlatform/AgriEdge/), [`EcoAgriPower`](./EcoPowerPlatform/EcoAgriPower/) |
-| **SkyShield**     | 防災・防衛・公共安全     | Militaryモデル中心                 | [`Military`](./EcoPowerPlatform/Military/) |
+| **SkyShield**     | 防災・防衛・公共安全     | Militaryモデル中心                 | [`Military`](./EcoPowerPlatform/Military/) 
 
 📄 各プロジェクトの概要・構成・背景は [docs/Projects.md](./docs/Projects.md) に詳述しています。
 
