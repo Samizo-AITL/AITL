@@ -9,13 +9,13 @@
 
 | モデル名         | 主な用途                         | 形態（タイプ）              | 主な構成技術                                      | リンク |
 |------------------|----------------------------------|-----------------------------|---------------------------------------------------|--------|
-| **Standard**      | 教育用ドローン制御               | 🛩️ ドローン基板              | 65nm CMOS, USB/Wi-Fi                             | [Standard](https://samizo-aitl.github.io/AITL/docs/EcoPowerPlatform/Standard/) |
-| **Professional**  | 産業用ドローン制御               | 🛩️ ドローン基板              | 28nm FD-SOI, LTE                                 | [Professional](https://samizo-aitl.github.io/AITL/docs/EcoPowerPlatform/Professional/) |
-| **SkyEdge**       | 次世代スマートドローン           | 🛩️ 高性能ドローン制御基板      | 3nm GAA, AI SoC, MIPI-4K, BLE/LTE/GNSS            | [SkyEdge](https://samizo-aitl.github.io/AITL/docs/EcoPowerPlatform/SkyEdge/) |
-| **AgriEdge**      | 農業用ドローン                   | 🛩️ ドローン（農業特化）        | 65nm CMOS + LoRa + MIPIカメラ                     | [AgriEdge](https://samizo-aitl.github.io/AITL/docs/EcoPowerPlatform/AgriEdge/) |
-| **EcoAgriPower**  | 畑の環境センシング端末           | 🏡 地上センサノード           | LoRa, ソーラー給電, 温湿度・土壌センサ            | [EcoAgriPower](https://samizo-aitl.github.io/AITL/docs/EcoPowerPlatform/EcoAgriPower/) |
-| **Military**      | 防災監視／軍用／公共インフラ      | 🛡️ 耐環境型ドローン＋センサ     | 28nm FD-SOI, GNSS, IMU, 自律制御, 耐環境仕様       | [Military](https://samizo-aitl.github.io/AITL/docs/EcoPowerPlatform/Military/) |
-| **Robotics**      | 教育・研究用ロボット制御         | 🤖 ロボット                   | RISC-V + AI + センサ群 + GUI                      | [Robotics](https://samizo-aitl.github.io/AITL/docs/Robotics/) |
+| **Standard**      | 教育用ドローン制御               | 🛩️ ドローン基板              | 65nm CMOS, USB/Wi-Fi                             | [Standard](EcoPowerPlatform/Standard/) |
+| **Professional**  | 産業用ドローン制御               | 🛩️ ドローン基板              | 28nm FD-SOI, LTE                                 | [Professional](EcoPowerPlatform/Professional/) |
+| **SkyEdge**       | 次世代スマートドローン           | 🛩️ 高性能ドローン制御基板      | 3nm GAA, AI SoC, MIPI-4K, BLE/LTE/GNSS            | [SkyEdge](EcoPowerPlatform/SkyEdge/) |
+| **AgriEdge**      | 農業用ドローン                   | 🛩️ ドローン（農業特化）        | 65nm CMOS + LoRa + MIPIカメラ                     | [AgriEdge](EcoPowerPlatform/AgriEdge/) |
+| **EcoAgriPower**  | 畑の環境センシング端末           | 🏡 地上センサノード           | LoRa, ソーラー給電, 温湿度・土壌センサ            | [EcoAgriPower](EcoPowerPlatform/EcoAgriPower/) |
+| **Military**      | 防災監視／軍用／公共インフラ      | 🛡️ 耐環境型ドローン＋センサ     | 28nm FD-SOI, GNSS, IMU, 自律制御, 耐環境仕様       | [Military](EcoPowerPlatform/Military/) |
+| **Robotics**      | 教育・研究用ロボット制御         | 🤖 ロボット                   | RISC-V + AI + センサ群 + GUI                      | [Robotics](../Robotics/) |
 
 ---
 
@@ -27,7 +27,7 @@
 - **構成特徴**：
   - 3nm GAA / 28nm FD-SOI
   - AI制御、マルチ通信、SystemDK展開
-- **リンク**： [EcoSmartEdge](https://samizo-aitl.github.io/AITL/docs/Projects/EcoSmartEdge/)
+- **リンク**： [EcoSmartEdge](Projects/EcoSmartEdge/)
 
 ---
 
@@ -37,7 +37,7 @@
 - **構成特徴**：
   - 空（ドローン）＋地（センシング端末）の連携
   - LoRa通信、ソーラー駆動、GUI教材付き
-- **リンク**： [EcoAgriSky](https://samizo-aitl.github.io/AITL/docs/Projects/EcoAgriSky/)
+- **リンク**： [EcoAgriSky](Projects/EcoAgriSky/)
 
 ---
 
@@ -47,7 +47,7 @@
 - **構成特徴**：
   - 高耐環境設計（EMI/温度/振動）
   - GNSS＋リアルタイムAI制御、セキュア通信
-- **リンク**： [SkyShield](https://samizo-aitl.github.io/AITL/docs/Projects/SkyShield/)
+- **リンク**： [SkyShield](Projects/SkyShield/)
 
 ---
 
