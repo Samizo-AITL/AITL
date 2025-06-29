@@ -1,140 +1,139 @@
-# 🧠 AITL - All-in-Theory Logic (English Overview)
+# 🧠 AITL - All-in-Theory Logic
 
 ## Overview
 
-AITL (All-in-Theory Logic) is a theoretical framework that structurally organizes intelligent systems using a layered architecture.  
-Based on three foundational layers—**Logic**, **Control**, and **Physical**—AITL aims to provide:
+AITL (All-in-Theory Logic) is an AI architecture concept designed to structurally and theoretically model intelligent systems.  
+This project is based on a hierarchical model integrating inference, control, and physical dynamics, with the following goals:
 
-- Structural understanding of AI  
-- Theory-driven design methodology  
-- Educational and research applications  
+- To support a deeper understanding of AI system structures  
+- To provide design guidelines based on formal theory  
+- To assist in education and research use cases  
 
-Unlike data-centric black-box AI, AITL emphasizes interpretable, deterministic, and modular AI construction.  
-It extends beyond theoretical models to include Proof-of-Concept (PoC) implementation guides and applications such as drones and robots.  
-AITL is a comprehensive system model pursuing structure, physical consistency, and self-repairing intelligence.
-
----
-
-## 📦 Versions and Structure
-
-| Version | Description                                | Target Directories / Files |
-|---------|--------------------------------------------|-----------------------------|
-| v1.0    | Core theoretical models (Logic, Control, Physical) | [theory/](https://github.com/Samizo-AITL/theory) |
-| v2.0    | Added PoC manual and implementation roadmap        | [SoC PoC Manual](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md)<br>[PoC/](../aitl-lab/PoC/) |
-
-✅ v2.0 includes practical design guidelines and implementation strategies derived from the AITL theory.
+AITL is not just a theoretical proposal. It also envisions practical implementation at the PoC (Proof of Concept) level, including applications such as drones and robots.  
+It emphasizes meaningful AI construction through structured design, physical consistency, and self-repair concepts.
 
 ---
 
-## 🧱 Project Structure and Relationships
+## 📦 Versions & Components
 
-| Component         | Description                                         | Location |
-|------------------|-----------------------------------------------------|----------|
-| Theoretical Core | Three-layer architecture (Logic, Control, Physical) | [theory/](https://github.com/Samizo-AITL/theory) |
-| PoC Design        | PoC architecture and control design documentation   | [SoC PoC Manual](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md) |
-| Application Layer | Drone, robot, and AI system implementations         | [implementation/](./implementation/) |
+| Version | Description                                      | Corresponding Directory / File |
+|---------|--------------------------------------------------|--------------------------------|
+| v1.0    | Abstract theory model (3 layers: inference/control/physics) | [theory/](https://github.com/Samizo-AITL/theory) |
+| v2.0    | PoC structure and implementation concept         | [SoC PoC Manual](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md)<br>[PoC/](../aitl-lab/PoC/) |
+
+✅ In v2.0, the scope extends from theory to practical implementation plans.
+
+---
+
+## 🧱 AITL Structure and Relationships
+
+| Component       | Description                            | Corresponding Directory / File |
+|-----------------|----------------------------------------|--------------------------------|
+| Abstract Theory | 3-layer model: Inference, Control, Physics | [theory/](https://github.com/Samizo-AITL/theory) |
+| PoC System      | Design documentation for implementation | [SoC PoC Manual](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md) |
+| Applied Systems | Drone & Robot system design examples    | [implementation/](./implementation/) |
 
 ---
 
 ## 📘 Terminology
 
-- **PoC**  
-  Proof-of-Concept implementation and verification layer.  
-  Contains source files and design data. The primary design document is:  
-  [SoC_PoC_Manual_v5.0.md](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md)
+- **PoC (Proof of Concept)**  
+  Directory for actual verification and control design.  
+  Includes source files and system architecture.  
+  ➜ Main documents consolidated in [SoC_PoC_Manual_v5.0.md](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md)
 
 - **SoC_PoC_Manual_v5.0.md**  
-  Central documentation for AITL-based control SoC design.  
-  Covers system structure, theoretical grounding, and implementation strategy.
+  Comprehensive manual for SoC-based control design inspired by AITL architecture.  
+  Covers philosophy, logic, implementation, and evaluation.
 
 ---
 
-## 🧠 AITL Layered Model Overview
+## 🧠 Three-Layer Model Summary
 
-| Layer        | Description                                                              |
-|--------------|---------------------------------------------------------------------------|
-| Logic Layer  | State recognition, hypothesis generation, decision-making, constraint logic |
-| Control Layer| Signal generation via PID, MPC, robust or adaptive control                 |
-| Physical Layer| Real-world interface including dynamics, sensors, and noise/disturbance |
+| Layer (JP) | Layer (EN)       | Description                                      |
+|------------|------------------|--------------------------------------------------|
+| 推論層      | Logic Layer       | State recognition, hypothesis generation, decision-making, constraint reasoning |
+| 制御層      | Control Layer     | Signal generation and stabilization (MPC, PID, etc.) |
+| 物理層      | Physical Layer    | Physical interactions (dynamics, sensors, noise handling) |
 
 ---
 
-## 🛠️ Design Guides and Implementation Documents
+## 🛠️ Implementation & Design Guides
 
-Detailed pathways from theory to implementation, including modular breakdowns and PoC system deployment strategies:
+Transitioning from AITL theory to PoC implementation is documented in the following files:
 
 - 🧩 **[AITL System Implementation Guide](./docs/AITL_SystemGuide.md)**  
-  Visual guide covering control structure, SoC module mapping, and deployment patterns.
+  Block diagrams, SoC module configurations, and PoC rollout patterns.
 
 - 🧠 **[AITL Theory-to-Implementation Mapping](./docs/AITL_TheoryMapping.md)**  
-  Correlates core theoretical components (logic, control, physical) with their presence in the PoC design.
+  Correspondence table showing how theoretical layers map to practical implementations.
 
 ---
 
-## 🚀 Use Cases and Applications
+## 🚀 PoC Examples and Applications
 
-| Name     | Description                                                       |
-|----------|-------------------------------------------------------------------|
-| AITL-R   | Robot system architecture with autonomy, redundancy, fault handling |
-| SkyEdge  | Aerial drone design for flight control and spatial reasoning       |
-| PoC Manual | Main documentation for SoC and system design strategies           |
+AITL has been applied to the following conceptual and practical systems:
 
----
+| Name             | Application Domain        | Model Configuration                 | Documentation |
+|------------------|---------------------------|--------------------------------------|----------------|
+| **AITL-R**        | Autonomous Robot          | Self-repairing, inference-driven control | [Robotics](./docs/robotics/) |
+| **SkyEdge**       | Next-Gen Drone            | AI control + 4K Camera + Edge Computing | [SkyEdge](./docs/EcoPowerPlatform/SkyEdge/) |
+| **EcoSmartEdge**  | Industrial DX & Smart IoT | Standard / Professional Models       | [Standard](./docs/EcoPowerPlatform/Standard/), [Professional](./docs/EcoPowerPlatform/Professional/) |
+| **EcoAgriSky**    | Agricultural Drone + Sensor | AgriEdge + Eco Agri Power           | [AgriEdge](./docs/EcoPowerPlatform/AgriEdge/), [EcoAgriPower](./docs/EcoPowerPlatform/EcoAgriPower/) |
+| **SkyShield**     | Disaster & Defense Systems | Based on Military model             | [Military](./docs/EcoPowerPlatform/Military/) |
 
-## 🔗 Related Documents (Internal Links)
-
-- [docs/AITL_Intro_For_Beginners.md](./docs/AITL_Intro_For_Beginners.md): Beginner's guide to AITL  
-- [docs/AITL_Theory_Framework.md](./docs/AITL_Theory_Framework.md): Structural foundations of AITL theory  
-- [docs/AITL_Adopted_Theories.md](./docs/AITL_Adopted_Theories.md): Summary of adopted theories and rationale  
+📄 Detailed descriptions and use cases are provided in [docs/Projects.md](./docs/Projects.md).
 
 ---
 
-## 📫 Feedback and Contributions
+## 🔗 Internal Documents
 
-This project is actively evolving. We welcome:
+- [docs/AITL_Intro_For_Beginners.md](./docs/AITL_Intro_For_Beginners.md): Introduction to AITL  
+- [docs/AITL_Theory_Framework.md](./docs/AITL_Theory_Framework.md): Full framework of AITL logic  
+- [docs/AITL_Adopted_Theories.md](./docs/AITL_Adopted_Theories.md): Adopted theories and their rationale  
 
-- Suggestions to improve the documents  
-- Questions about the theory  
-- Contributions to implementation or design  
-- Collaboration on research or education initiatives  
+---
 
-Feel free to open GitHub Issues or participate in Discussions.
+## 📫 Feedback & Collaboration
+
+This is a living project. Questions, suggestions, or contributions regarding theory, implementation, or education are welcome via  
+[GitHub Issues](https://github.com/Samizo-AITL/aitl-lab/issues) or Discussions.
 
 ---
 
 ## 🧾 About This Project
 
-This repository re-examines AI system design from the perspective of semiconductor device engineering.  
-We aim to establish a theory-driven, physically consistent, and self-repairable AI structure.  
-Rather than completing implementations or training models, AITL focuses on theoretical insight and educational value.
+This repository aims to reimagine AI structure from the perspective of semiconductor system engineering.  
+It provides a theory-driven, physically consistent, and self-repair-capable AI model in a format suitable for education and concept design.
 
-🔎 **Note**: The project is not intended to deliver production-ready code.  
-Its main objective is theory exploration, educational modeling, and open collaboration.
-
----
-
-## 🤝 Contribution Opportunities
-
-We welcome collaboration and concept sharing through:
-
-- Technical contributions in implementation, control engineering, and robotics  
-- Joint research based on the AITL framework  
-- Use in academic teaching or technical education (MIT License)  
-
-🔧 Full implementation and hardware testing environments are under development.  
-More details will be published in `CONTRIBUTING.md`.
+🔎 This is not a completed implementation.  
+Its main goal is theory development, learning support, and concept sharing.
 
 ---
 
-## ©️ Author & License
+## 🤝 Collaboration Opportunities
 
-- **Author / Proposal**: Shinichi Samizo  
-  M.Sc., Shinshu University / Formerly at Seiko Epson  
-  Specialty: Semiconductor Device Engineering
+We welcome the following forms of collaboration:
 
-- **License**: MIT License  
-  All materials and ideas in this repository are open source under the MIT License.  
-  You are free to use, modify, and redistribute with proper credit.
+- Technical contributions in implementation, control design, and robotics  
+- Joint research and development using the AITL concept  
+- Educational use and adaptation under the MIT License
+
+🔧 Please note: implementation environments are still under development.  
+Guidelines will be provided in a future version of `CONTRIBUTING.md`.
+
+---
+
+## ©️ Authorship & License
+
+- Author / Proposer: **Shinichi Samizo**  
+  M.Eng. in Electrical and Electronic Engineering, Shinshu University  
+  Former engineer at Seiko Epson  
+  Expertise: Semiconductor device technology
+
+- License: **MIT License (Open Source)**  
+  All content is free to use, modify, and redistribute under MIT terms.  
+  Please retain copyright and license.
 
 GitHub: [@Samizo-AITL](https://github.com/Samizo-AITL)  
 Email: shin3t72@gmail.com
