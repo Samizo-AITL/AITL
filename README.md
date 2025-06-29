@@ -74,15 +74,7 @@ AITL構想は以下のようなPoC実装・応用システムに展開されて�
 
 | 名称              | 用途・対象               | モデル構成                         | 関連ドキュメントの案内 |
 |-------------------|--------------------------|-------------------------------------|--------------------------|
-| **AITL-R**        | 自律ロボット             | 自己修復・推論制御                 | `docs/Robotics/` を参照 |
-| **SkyEdge**       | 次世代ドローン           | AI制御＋4Kカメラ＋高度エッジ       | `docs/EcoPowerPlatform/SkyEdge/` を参照 |
-| **EcoSmartEdge**  | 産業DX・スマートIoT      | Standard / Professional モデル     | `docs/EcoPowerPlatform/Standard/`, `.../Professional/` を参照 |
-| **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | `docs/EcoPowerPlatform/AgriEdge/`, `.../EcoAgriPower/` を参照 |
-| **SkyShield**     | 防災・防衛・公共安全     | Militaryモデル中心                 | `docs/EcoPowerPlatform/Military/` を参照 |
-
-| 名称              | 用途・対象               | モデル構成                         | 関連ドキュメントの案内 |
-|-------------------|--------------------------|-------------------------------------|--------------------------|
-| **AITL-R**        | 自律ロボット             | 自己修復・推論制御                 | [Robotics](./docs/Robotics/) |
+| **AITL-R**        | 自律ロボット             | 自己修復・推論制御                 | [Robotics](./docs/robotics/) |
 | **SkyEdge**       | 次世代ドローン           | AI制御＋4Kカメラ＋高度エッジ       | [SkyEdge](./docs/EcoPowerPlatform/SkyEdge/) |
 | **EcoSmartEdge**  | 産業DX・スマートIoT      | Standard / Professional モデル     | [Standard](./docs/EcoPowerPlatform/Standard/), [Professional](./docs/EcoPowerPlatform/Professional/) |
 | **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | [AgriEdge](./docs/EcoPowerPlatform/AgriEdge/), [EcoAgriPower](./docs/EcoPowerPlatform/EcoAgriPower/) |
