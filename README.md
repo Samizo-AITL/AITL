@@ -70,11 +70,17 @@ AITLの理論 → 実装への流れ、およびモジュール分解・PoC展�
 
 ## 🚀 応用と展開例
 
-| 名称       | 概要                                           |
-|------------|------------------------------------------------|
-| AITL-R     | ロボット向け構成（自律動作、冗長制御、障害推論） |
-| SkyEdge    | ドローン飛行制御と空間判断の応用設計             |
-| PoCマニュアル | 制御・実装設計までの構成と構想を整理した中核資料群 |
+AITL構想は以下のようなPoC実装・応用システムに展開されています：
+
+| 名称              | 用途・対象               | モデル構成                         | 関連ドキュメント |
+|-------------------|--------------------------|-------------------------------------|------------------|
+| **AITL-R**        | 自律ロボット             | 自己修復・推論制御                 | [`Robotics`](./Robotics/) |
+| **SkyEdge**       | 次世代ドローン           | AI制御＋4Kカメラ＋高度エッジ       | [`SkyEdge`](./EcoPowerPlatform/SkyEdge/) |
+| **EcoSmartEdge**  | 産業DX・スマートIoT      | Standard / Professional モデル     | [`Standard`](./EcoPowerPlatform/Standard/), [`Professional`](./EcoPowerPlatform/Professional/) |
+| **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | [`AgriEdge`](./EcoPowerPlatform/AgriEdge/), [`EcoAgriPower`](./EcoPowerPlatform/EcoAgriPower/) |
+| **SkyShield**     | 防災・防衛・公共安全     | Militaryモデル中心                 | [`Military`](./EcoPowerPlatform/Military/) |
+
+📄 各プロジェクトの概要・構成・背景は [`docs/Projects.md`](./docs/Projects.md) に詳述しています。
 
 ---
 
