@@ -27,7 +27,7 @@
 - **構成特徴**：
   - 3nm GAA / 28nm FD-SOI
   - AI制御、マルチ通信、SystemDK展開
-- **リンク**： [EcoSmartEdge](Projects/EcoSmartEdge/)
+- **リンク**： *作成予定*（`Projects/EcoSmartEdge/`）
 
 ---
 
@@ -37,7 +37,7 @@
 - **構成特徴**：
   - 空（ドローン）＋地（センシング端末）の連携
   - LoRa通信、ソーラー駆動、GUI教材付き
-- **リンク**： [EcoAgriSky](Projects/EcoAgriSky/)
+- **リンク**： *作成予定*（`Projects/EcoAgriSky/`）
 
 ---
 
@@ -47,7 +47,7 @@
 - **構成特徴**：
   - 高耐環境設計（EMI/温度/振動）
   - GNSS＋リアルタイムAI制御、セキュア通信
-- **リンク**： [SkyShield](Projects/SkyShield/)
+- **リンク**： *作成予定*（`Projects/SkyShield/`）
 
 ---
 
