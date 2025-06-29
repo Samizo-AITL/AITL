@@ -136,4 +136,6 @@ AIの構造化・物理整合・自己修復といった視点を、理論提案
 GitHub: [@Samizo-AITL](https://github.com/Samizo-AITL)  
 Email: shin3t72@gmail.com
 
+---
+
 📄 [English version available here](./README_en.md)
