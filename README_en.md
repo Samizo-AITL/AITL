@@ -93,6 +93,17 @@ The transition from theory to PoC-level implementation is documented in the foll
 
 ---
 
+## 📚 Educational Resources and Next-Gen Textbook
+
+This repository includes official educational materials to learn the AITL architecture, its principles, and practical design methods:
+
+- [AITL Textbook (Fundamental of AITL Architecture)](./Education/Fundamental_of_AITL_Architecture/README.md)  
+  A beginner-friendly textbook covering the three-layer architecture, LLM-based inference, control theory, physical modeling, and FPGA implementation.
+
+Further development is planned in collaboration with Edusemi and AITL-Lab to support next-generation engineering education.
+
+---
+
 ## 🔗 Internal References
 
 - [docs/AITL_Intro_For_Beginners.md](./docs/AITL_Intro_For_Beginners.md): Beginner’s guide to AITL  
