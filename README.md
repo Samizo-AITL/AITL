@@ -21,7 +21,7 @@ AITLは単なる理論提案にとどまらず、PoC（Proof of Concept）レベ
 | v1.0       | 抽象理論モデル（推論・制御・物理の3層） | [theory/](https://github.com/Samizo-AITL/theory) |
 | v2.0       | PoC構成と実装構想                     | [SoC PoC Manual](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md)<br>[PoC/](https://github.com/Samizo-AITL/aitl-lab/) |
 
-✅ v2.0 では、理論に加えて PoC や実装構想の整理まで踏み込んでいます。
+　v2.0 では、理論に加えて PoC や実装構想の整理まで踏み込んでいます。
 　また、AITL構想に基づくSoC設計の詳細な実装マニュアルとして、  
 [AITL_SoC_Design_Manual_v1.0.md](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/soc-manual/AITL_SoC_Design_Manual_v1.0.md) をご参照ください。
 ---
