@@ -19,7 +19,7 @@ AITLは単なる理論提案にとどまらず、PoC（Proof of Concept）レベ
 | バージョン | 内容                                  | 対応ディレクトリ・ファイル |
 |------------|---------------------------------------|------------------------------|
 | v1.0       | 抽象理論モデル（推論・制御・物理の3層） | [theory/](https://github.com/Samizo-AITL/theory) |
-| v2.0       | PoC構成と実装構想                     | [SoC PoC Manual](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md)<br>[PoC/](../aitl-lab/PoC/) |
+| v2.0       | PoC構成と実装構想                     | [SoC PoC Manual](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md)<br>[PoC/](https://github.com/Samizo-AITL/aitl-lab/) |
 
 ✅ v2.0 では、理論に加えて PoC や実装構想の整理まで踏み込んでいます。
 
@@ -80,7 +80,6 @@ AITL構想は以下のようなPoC実装・応用システムに展開されて�
 | **EcoAgriSky**    | 農業ドローン＋畑センサ   | AgriEdge + Eco Agri Power           | [AgriEdge](./docs/EcoPowerPlatform/AgriEdge/), [EcoAgriPower](./docs/EcoPowerPlatform/EcoAgriPower/) |
 | **SkyShield**     | 防災・防衛・公共安全     | Militaryモデル中心                 | [Military](./docs/EcoPowerPlatform/Military/) |
 
-
 📄 各プロジェクトの概要・構成・背景は [docs/Projects.md](./docs/Projects.md) に詳述しています。
 
 ---
@@ -139,5 +138,3 @@ Email: shin3t72@gmail.com
 ---
 
 📄 [English version available here](./README_en.md)
-
----
