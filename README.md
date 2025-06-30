@@ -90,6 +90,17 @@ AITLは単なる理論提案にとどまらず、PoC（Proof of Concept）によ
 
 ---
 
+## 📚 教育リソースと次世代教科書
+
+AITLの設計原理・実装手法を学べる公式教材です：
+
+- [AITL 教科書（Fundamental of AITL Architecture）](./education/README.md)  
+  三層構造の原理、LLM・制御理論・物理モデル統合、FPGA実装までを体系的に学べる入門書。
+
+今後、EdusemiやAITL-Labと連携し、次世代工学教育の教材として拡充予定です。
+
+---
+
 ## 🔗 関連ドキュメント（内部リンク）
 
 - [docs/AITL_Intro_For_Beginners.md](./docs/AITL_Intro_For_Beginners.md)：AITL入門ガイド  
