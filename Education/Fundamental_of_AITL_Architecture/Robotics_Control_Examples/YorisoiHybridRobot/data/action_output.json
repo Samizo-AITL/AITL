@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-07-02T17:00:02+09:00",
+  "action": {
+    "type": "voice",
+    "content": "こんにちは。何かお話しましょうか？"
+  },
+  "fsm_state": "CARE_MODE",
+  "llm_used": true
+}
