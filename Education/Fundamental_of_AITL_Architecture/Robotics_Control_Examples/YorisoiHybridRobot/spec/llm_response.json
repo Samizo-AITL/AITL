@@ -1,0 +1,6 @@
+{
+  "suggested_state": "SAFE",
+  "reason": "ユーザーが悲しそうな発話を繰り返しています。",
+  "confidence": 0.91,
+  "action_message": "やさしく声をかけましょう"
+}
