@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-07-02T17:00:01+09:00",
+  "suggested_state": "CARE_MODE",
+  "reasoning": "ユーザーが『寂しい』と話しており、感情が'sad'で信頼度が高いため。",
+  "action": {
+    "type": "voice",
+    "content": "こんにちは。何かお話しましょうか？"
+  }
+}
