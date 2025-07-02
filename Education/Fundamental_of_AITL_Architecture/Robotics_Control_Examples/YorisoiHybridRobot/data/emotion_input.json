@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-07-02T17:00:00+09:00",
+  "user_id": "elder_01",
+  "emotion": "sad",
+  "emotion_confidence": 0.85,
+  "voice_text": "今日は寂しいです",
+  "face_expression": "frown",
+  "pose": "sitting"
+}
