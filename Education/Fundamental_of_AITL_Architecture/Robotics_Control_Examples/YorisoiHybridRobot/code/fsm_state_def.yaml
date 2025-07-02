@@ -1,0 +1,39 @@
+# FSM状態定義ファイル（YorisoiHybridRobot）
+
+states:
+  - name: IDLE
+    description: 通常の見守り待機状態
+    on_entry: "対話を待機"
+    transitions:
+      - to: CHECK
+        trigger: "ユーザー発話 or センサイベント"
+
+  - name: CHECK
+    description: ユーザー状態の確認
+    on_entry: "感情・姿勢・発話を分析"
+    transitions:
+      - to: SAFE
+        condition: "emotion == 'sad' or emotion == 'anxious'"
+      - to: ALERT
+        condition: "pose == 'falling' or no_response == True"
+
+  - name: SAFE
+    description: 共感的安心対話モード
+    on_entry: "やさしい声がけ"
+    transitions:
+      - to: IDLE
+        condition: "emotion == 'neutral'"
+
+  - name: ALERT
+    description: 異常警戒中
+    on_entry: "異常検出・警告開始"
+    transitions:
+      - to: EMERGENCY
+        condition: "fall_detected == True"
+      - to: IDLE
+        condition: "false_alarm == True"
+
+  - name: EMERGENCY
+    description: 緊急事態（転倒・応答なし）
+    on_entry: "緊急通知と安全停止"
+    transitions: []
