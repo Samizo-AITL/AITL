@@ -33,8 +33,7 @@ AITLは**理論提案**にとどまらず、**PoC実装**や**教育教材**、�
 | 制御層        | Control Layer | 状態遷移・決定論的制御（FSM）               |
 | 物理層        | Physical Layer | 実環境でのロバスト制御・センサ信号処理（H∞等） |
 
-構造図 → `docs/images/samizo_architecture.png`（準備中）
-
+![Samizo Architecture](./docs/images/samizo_architecture_v4.png)
 ---
 
 ## 🚀 PoC実装と教育展開
