@@ -43,7 +43,7 @@ AITLは**理論提案**にとどまらず、**PoC実装**や**教育教材**、�
 |-------------------|----------------------------------|-------------|
 | AITL-HX            | 宇宙ロボット向け PoC             | [AITL-HX/README.md](./Education/Robotics_Control_Examples/AITL-HX/README.md) |
 | 教育教材（第1章） | Samizo構造＋PoC導入教材          | [Fundamental README](./Education/Fundamental_of_AITL_Architecture/README.md) |
-| SoC設計ガイド     | FSM/LLM/物理をSoC統合            | [SoC設計ガイド](./docs/soc-manual/AITL_SoC_Design_Manual_v1.0.md) |
+| SoC設計ガイド     | FSM/LLM/物理をSoC統合            | [AITL_SoC_Design_Manual_v1.0.md](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/soc-manual/AITL_SoC_Design_Manual_v1.0.md)|
 
 ---
 
