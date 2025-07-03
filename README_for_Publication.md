@@ -21,7 +21,7 @@ The architecture is not just conceptual. We provide:
 
 See full structure: [AITL/README.md](./README.md)  
 Architecture diagram:  
-![Samizo Architecture](./docs/images/samizo_architecture_v4.png)
+<img src="./docs/images/samizo_architecture_v4.png" alt="Samizo Architecture" width="300"/>
 
 ---
 
