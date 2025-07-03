@@ -33,7 +33,7 @@ This layered structure is formalized as the **Samizo Architecture**, enabling in
 | Control Layer    | Finite-state decision logic (FSMs)            |
 | Physical Layer   | Robust real-world control (H∞, dynamics)      |
 
-See: `docs/images/samizo_architecture.png` (coming soon)
+<img src="./docs/images/samizo_architecture_v4.png" alt="Samizo Architecture" width="300"/>
 
 ---
 
