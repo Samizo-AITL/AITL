@@ -100,3 +100,5 @@ AITL is not just a theoretical proposal — it includes PoC implementations, edu
 👉 Guidelines will be published in `CONTRIBUTING.md`
 
 ---
+
+📄 日本語版はこちら: [README.md](./README.md)
