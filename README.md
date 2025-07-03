@@ -19,7 +19,7 @@ AITLは**理論提案**にとどまらず、**PoC実装**や**教育教材**、�
 | 構成名          | 説明                           | 対応ディレクトリ |
 |------------------|----------------------------------|-------------------|
 | 抽象理論モデル   | Samizoアーキテクチャ（三層構造） |[theory/](https://github.com/Samizo-AITL/theory) |
-| PoC構成          | FSM+LLM+物理制御の検証実装       | [`PoC/`](./PoC/), [`Education/`](./Education/) |
+| PoC構成          | FSM+LLM+物理制御の検証実装       | [SoC PoC Manual](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md), [`Education/`](./Education/) |
 | 教育教材         | 理論と実装を学ぶための教材群     | [`Education/`](./Education/) |
 | 応用展開         | 宇宙ロボット・介護・防衛等の応用 | [`Application_Expansions/`](./Application_Expansions/) |
 
@@ -75,7 +75,7 @@ AITLは**理論提案**にとどまらず、**PoC実装**や**教育教材**、�
 ## 📄 参考資料・ドキュメント
 
 - [docs/AITL_Theory_Framework.md](./docs/AITL_Theory_Framework.md)：理論全体像とレイヤー定義  
-- [PoC/SoC_PoC_Manual_v5.0.md](./PoC/SoC_PoC_Manual_v5.0.md)：初期実装マニュアル  
+- [SoC PoC Manual](https://github.com/Samizo-AITL/aitl-lab/blob/main/docs/SoC_PoC_Manual_v5.0.md)：初期実装マニュアル  
 - [README_for_Publication.md](./README_for_Publication.md)：技術メディア・OpenAI向け英語紹介資料
 
 ---
