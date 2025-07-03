@@ -100,3 +100,4 @@ AITLは**理論提案**にとどまらず、**PoC実装**や**教育教材**、�
 👉 `CONTRIBUTING.md` にて詳細を掲載予定
 
 ---
+📄 English version available: [README_en.md](./README_en.md)
