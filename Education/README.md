@@ -1,96 +1,84 @@
-# 🎓 AITL Education – Learn Structured AI Architecture
+# 🎓 AITL Education – Structured Learning for AI Architecture
 
-Welcome to the **Educational section** of the AITL Project.  
-Here you'll find structured learning resources to understand and apply the **Samizo Architecture**, which defines AI systems in three layers:
-
-- Logic (LLM reasoning)
-- Control (FSM-based decision logic)
-- Physical (robust control and actuation)
+Welcome to the **Education section** of the AITL Project.  
+Here we provide comprehensive materials to **learn, test, and teach** structured AI systems based on the Samizo 3-layer model: Logic, Control, and Physical layers.
 
 ---
 
-## 📘 Learning Goals
+## 🧭 Educational Objectives
 
 This section is designed to support:
 
-- 🎓 **Students** learning AI and robotics fundamentals  
-- 👨‍💻 **Engineers** looking to implement interpretable AI control  
-- 🧑‍🏫 **Educators** building curricula for control systems or AI reasoning  
-- 🛰 **Researchers** testing robust architectures in complex domains
+- 🎓 **Students** learning foundational AI and control logic  
+- 👩‍🏫 **Educators** preparing structured, theory-backed curricula  
+- 🧑‍🔬 **Researchers** testing robust AI system integration  
+- 👨‍💻 **Engineers** implementing LLM + FSM + Physical control
 
 ---
 
-## 🧩 Structure Overview
+## 🧱 Directory Structure Overview
 
 ```
 Education/
-├── Fundamental_of_AITL_Architecture/
+├── README.md                              ← 📘 This file
+├── Fundamental_of_AITL_Architecture/      ← Chapter 1: Samizo theory and PoC
 │   ├── Robotics_Control_Examples/
 │   │   └── AITL-HX/
-│   │       ├── fsm_engine.py
-│   │       ├── llm_interface.py
-│   │       ├── docs/
-│   │       └── data/
-│   └── README.md ← (this file)
-└── Future_Additions/  ← Edusemi modules, labs, etc.
+│   └── ...
+└── Future_Additions/                      ← Edusemi modules, AITL-Lab, etc.
 ```
 
 ---
 
-## 🧪 Core Example: AITL-HX
+## 📘 Chapter 1: Fundamental of AITL Architecture
 
-- A full Proof-of-Concept implementation of FSM × LLM × H∞ control  
-- Designed for space robotics, elder care, and robust AI applications  
-- Includes YAML-based FSM definitions, Python interfaces, semantic overrides
+Focuses on the **core theory** (Samizo 3-layer architecture) and a working PoC called **AITL-HX**, which integrates:
+
+- 🧠 LLM-based reasoning  
+- 🔁 FSM state machine control  
+- ⚙️ H∞ robust physical control
 
 📂 Folder:  
-`Fundamental_of_AITL_Architecture/Robotics_Control_Examples/AITL-HX/`
+`Education/Fundamental_of_AITL_Architecture/`
 
-📄 See: [AITL-HX README](./Fundamental_of_AITL_Architecture/Robotics_Control_Examples/AITL-HX/README.md)
-
----
-
-## 📚 Recommended Learning Path
-
-| Step | Topic                              | Folder / File |
-|------|------------------------------------|----------------|
-| 1    | Theory of 3-layer architecture     | `docs/AITL_Theory_Framework.md` |
-| 2    | Control logic with FSM             | `fsm_engine.py`, `fsm_state_def.yaml` |
-| 3    | Reasoning via LLM (GPT or others)  | `llm_interface.py` |
-| 4    | Robust physical control (H∞)       | `h_infinity_control_spec.md` |
-| 5    | Full integration: AITL-HX PoC      | `AITL-HX/README.md` |
+📄 See: [`README of AITL-HX`](./Fundamental_of_AITL_Architecture/Robotics_Control_Examples/AITL-HX/README.md)
 
 ---
 
-## 📘 Future Educational Modules (Planned)
+## 📚 Upcoming Educational Materials
 
-- **Edusemi-AITL**: semiconductor-level modeling of AI structures  
-- **AITL Labs**: step-by-step exercises for building FSMs and LLM wrappers  
-- **Teaching slides and lecture notes**: aligned with the Samizo architecture
+Planned under `Education/Future_Additions/`:
 
----
-
-## 🎓 Curriculum Use
-
-These materials are MIT-licensed and ready for:
-
-- University courses on robotics, embedded systems, and AI  
-- Control system labs and simulation exercises  
-- Independent learning or rapid prototyping environments
-
-Please cite the project if you reuse components.
+| Module               | Description |
+|----------------------|-------------|
+| **Edusemi-AITL**     | Semiconductor-based modeling of logic/control systems |
+| **AITL-Lab Exercises** | FSM construction, LLM prompt tuning, real-time testing |
+| **Lecture Slides**   | Teaching slides for universities and online courses |
 
 ---
 
-## 📬 Feedback and Collaboration
+## 🏫 Use in Education
 
-We welcome collaboration from:
+- MIT-licensed: Free for educational use, citation appreciated  
+- Can be embedded in:
+  - Robotics control classes  
+  - Embedded system design labs  
+  - AI architecture lectures  
+  - H∞ control experiments
 
-- Educators building structured AI courses  
-- Research groups deploying AITL in simulations or robots  
-- Students looking to extend the architecture
+If you are an educator or course designer, feel free to fork and reuse.
 
-Contact: `shin3t72@gmail.com`
+---
+
+## 📬 Collaboration and Feedback
+
+We welcome:
+
+- 🧑‍🏫 Educators contributing modules or use cases  
+- 👩‍💻 Students extending PoCs or control logic  
+- 🛰 Researchers integrating AITL in simulation or hardware
+
+Contact the author: `shin3t72@gmail.com`
 
 ---
 
