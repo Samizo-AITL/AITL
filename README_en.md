@@ -1,115 +1,107 @@
-# 🧠 AITL - All-in-Theory Logic (English Overview)
-
-**AITL (All-in-Theory Logic)** is an AI architecture framework that defines intelligent systems in a structural, theory-driven manner. It is based on a 3-layer model integrating logic, control, and physical interaction, with the following core goals:
-
-- Structurally understanding AI architecture  
-- Providing theory-based design guidance  
-- Enabling use in education, research, and system implementation  
-
-AITL is not just theoretical. It includes PoC implementations, robotic control systems, and real-world applications such as space robotics, disaster response, and elder care.
+# 🧠 AITL - All-in-Theory Logic
 
 ---
 
-## 🧩 System Architecture: Samizo Model
+## Overview
 
-AITL is built on the **Samizo Architecture**, which separates intelligence into three distinct, interconnected layers:
+**AITL (All-in-Theory Logic)** is a theory-driven AI architecture that defines intelligent systems through a layered model:
 
-| Japanese Layer | English Layer    | Description                                           |
-|----------------|------------------|-------------------------------------------------------|
-| 推論層         | Logic Layer       | Situation recognition, hypothesis generation, decision-making |
-| 制御層         | Control Layer     | Formal and deterministic state control (FSM, MPC, PID) |
-| 物理層         | Physical Layer    | Dynamics, actuation, sensing, and robust response    |
+- 🧠 **Logic Layer**: Semantic reasoning and intention understanding using LLMs  
+- 🔁 **Control Layer**: Deterministic state transitions via FSM  
+- ⚙️ **Physical Layer**: Robust physical control using H-infinity theory
 
-Each layer can be independently developed, verified, and integrated, allowing for modular and interpretable intelligent system design.
+This layered structure is formalized as the **Samizo Architecture**, enabling interpretable, adaptive, and physically grounded AI systems.
 
 ---
 
-## 📦 Versions and Structure
+## 🧱 Project Structure
 
-| Version | Description                              | Location                                  |
-|---------|------------------------------------------|-------------------------------------------|
-| v1.0    | Abstract 3-layer theoretical model        | `theory/`                                 |
-| v2.0    | PoC structure and system implementation   | `PoC/`, `AITL_SoC_Design_Manual_v1.0.md`  |
-
-✅ Version 2.0 includes actual robotic control PoCs, implementation guides, and applied examples.
-
----
-
-## 🛠 PoC & Implementations
-
-### 🔹 AITL-HX: Hybrid PoC for Space Robotics
-
-- A core PoC implementing Samizo Architecture with FSM × LLM × H∞ control
-- Designed for high-reliability environments (e.g., radiation-tolerant control systems)
-- Includes:
-  - `fsm_engine.py`: deterministic finite-state control
-  - `llm_interface.py`: language-based reasoning and exception handling
-  - `h_infinity_control_spec.md`: robust multivariable control theory
-- Applied to multi-joint arms, cooling fans, and assistive robots
-- Location:  
-  `Education/Fundamental_of_AITL_Architecture/Robotics_Control_Examples/AITL-HX/`
-
-📄 See: [AITL-HX README](./Education/Fundamental_of_AITL_Architecture/Robotics_Control_Examples/AITL-HX/README.md)
+| Layer            | Description                              | Directory              |
+|------------------|------------------------------------------|------------------------|
+| Abstract Theory  | Samizo 3-layer formal architecture        | `theory/`              |
+| PoC Implementations | FSM + LLM + H∞ integrated examples      | `PoC/`, `Education/`   |
+| Educational Materials | Structured guides and examples        | `Education/`           |
+| Application Prototypes | Real-world domain deployments       | `Application_Expansions/` |
 
 ---
 
-## 🚀 Application Projects
+## 🧠 Samizo Architecture: 3-Layer Model
 
-| Project Name | Domain             | Features                             | Reference                            |
-|--------------|--------------------|--------------------------------------|---------------------------------------|
-| **AITL-R**    | Autonomous Robots   | Self-repairing logic, robust control | `implementation/`                    |
-| **Yorisoi**   | Elder Care Support | Empathetic dialogue + state control  | `Application_Expansions/elder_care/` |
-| **SkyEdge**   | AI Drone Platform  | 4K camera + MPC flight control       | `Application_Expansions/sky_drone/`  |
-| **SkyShield** | Disaster/Defense   | FSM-based risk response              | `Application_Expansions/defense_and_rescue/` |
+| Layer Name      | Description                                   |
+|------------------|-----------------------------------------------|
+| Logic Layer      | Hypothesis generation, intention reasoning (LLMs) |
+| Control Layer    | Finite-state decision logic (FSMs)            |
+| Physical Layer   | Robust real-world control (H∞, dynamics)      |
 
-📘 Full list: [`docs/Projects.md`](./docs/Projects.md)
-
----
-
-## 📚 Educational Resources
-
-- **Fundamental of AITL Architecture**  
-  → Structured educational material for theory and practice
-- Includes control theory, FSM design, LLM integration, and hardware deployment
-- Connected to the **Edusemi** initiative for next-generation engineering education
+See: `docs/images/samizo_architecture.png` (coming soon)
 
 ---
 
-## 📘 Key Documents
+## 🧩 PoC and Educational Projects
 
-- `docs/AITL_Intro_For_Beginners.md` – Beginner-friendly introduction  
-- `docs/AITL_Theory_Framework.md` – Core theory and architecture breakdown  
-- `docs/AITL_Adopted_Theories.md` – Control and AI theories adopted in AITL  
-- `PoC/SoC_PoC_Manual_v5.0.md` – Comprehensive implementation guide for PoC
-
----
-
-## 🤝 Contribution Guidelines
-
-We welcome community contributions and collaborations:
-
-- Join development of control implementations or PoC systems  
-- Propose use cases in elder care, robotics, disaster response, or space applications  
-- Use AITL for research, teaching, or educational projects  
-
-📬 Contribution guide coming soon in `CONTRIBUTING.md`
+| Name             | Description                                | Link                      |
+|------------------|--------------------------------------------|---------------------------|
+| AITL-HX          | Core PoC with FSM + LLM + H∞ for space robotics | [`AITL-HX/README.md`](./Education/Fundamental_of_AITL_Architecture/Robotics_Control_Examples/AITL-HX/README.md) |
+| Chapter 1 Material | Entry-level learning module on AITL theory and PoC | [`Education/Fundamental_of_AITL_Architecture/README.md`](./Education/Fundamental_of_AITL_Architecture/README.md) |
+| SoC Design Guide | Theory-to-SoC design flow documentation     | [`docs/soc-manual/AITL_SoC_Design_Manual_v1.0.md`](./docs/soc-manual/AITL_SoC_Design_Manual_v1.0.md) |
 
 ---
 
-## ©️ License and Attribution
+## 🌍 Application Prototypes
 
-- **Author**: Shinichi Samizo  
-  M.Eng, Shinshu University | Former Seiko Epson engineer  
-  Expertise: Semiconductor design, robotics, AI control theory
+| Project Name     | Domain               | Description                        |
+|------------------|----------------------|------------------------------------|
+| AITL-HX          | Space Robotics       | Radiation-tolerant control logic   |
+| Yorisoi          | Elder Care Robot     | LLM-driven empathy and FSM safety  |
+| SkyShield        | Disaster / Defense   | Risk-aware FSM + LLM strategies    |
+| EcoSmartEdge     | Smart IoT            | Optimized FSM-LLM energy systems   |
 
-- **License**: MIT License  
-  → Free to use, modify, and redistribute with attribution
-
-- GitHub: [@Samizo-AITL](https://github.com/Samizo-AITL)  
-- Contact: shin3t72@gmail.com
+See: [`Application_Expansions/README.md`](./Application_Expansions/README.md)
 
 ---
 
-## 🌐 日本語版はこちら / Japanese version available
+## 📚 Education and Curriculum
 
-👉 [README（日本語）はこちら](./README.md)
+| Module                  | Description                                 |
+|--------------------------|---------------------------------------------|
+| `Fundamental_of_AITL_Architecture/` | Samizo theory + hands-on PoC module   |
+| Edusemi-AITL (planned)  | Semiconductor-based theory of control       |
+| AITL-Lab (planned)       | Labs for FSM/LLM/H∞ testing and learning   |
+
+Educational top page: [`Education/README.md`](./Education/README.md)
+
+---
+
+## 📄 Documentation
+
+- [`docs/AITL_Theory_Framework.md`](./docs/AITL_Theory_Framework.md): Core theory reference  
+- [`PoC/SoC_PoC_Manual_v5.0.md`](./PoC/SoC_PoC_Manual_v5.0.md): Legacy PoC documentation  
+- [`README_for_Publication.md`](./README_for_Publication.md): External-facing summary for media / OpenAI
+
+---
+
+## 🤝 Collaboration and Licensing
+
+- Author: **Shinichi Samizo**  
+  M.Eng. in Electrical Engineering, Shinshu University  
+  Former R&D at Seiko Epson, specializing in semiconductors and control systems
+
+- License: **MIT License**  
+  Free to use, modify, and redistribute with attribution
+
+- Contact: `shin3t72@gmail.com`  
+  GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
+
+---
+
+## 💡 Contribution Welcome
+
+We invite:
+
+- Developers implementing robust interpretable AI  
+- Educators using this for robotics / control teaching  
+- Researchers exploring hybrid architecture for autonomy
+
+Please refer to `CONTRIBUTING.md` (in progress)
+
+---
